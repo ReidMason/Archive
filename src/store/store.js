@@ -5,14 +5,21 @@ Vue.use(Vuex)
 
 export const store = new Vuex.Store({
     state: {
-        message: 'New message!'
+        endpoint: "https://localhost:44379",
+        inventoryItems: null,
+        itemToEdit: "blank"
     },
     mutations: {
-        changeMessage(state, message) {
-            state.message = message;
+        setInventoryItems: function (state, data) {
+            state.inventoryItems = data;
+        },
+        setItemToEdit: function (state, item) {
+            state.itemToEdit = item;
         }
     },
     getters: {
-        message: state => state.message
+        inventoryItems: state => state.inventoryItems,
+        endpoint: state => state.endpoint,
+        itemToEdit: state => state.itemToEdit
     }
 })
