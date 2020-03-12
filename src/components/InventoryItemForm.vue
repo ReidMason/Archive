@@ -5,7 +5,7 @@
       :key="field"
       class="form-group"
     >
-      <label>{{ field }}</label>
+      <label>{{ field.charAt(0).toUpperCase() + field.slice(1) }}</label>
       <input
         :type="fieldType"
         class="form-control"
