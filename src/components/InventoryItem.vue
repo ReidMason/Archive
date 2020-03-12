@@ -40,7 +40,6 @@ export default {
     },
     setItemToEdit: function() {
       this.$store.commit("setItemToEdit", Object.assign({}, this.item));
-      console.log(this.$store.getters.itemToEdit);
     }
   }
 };

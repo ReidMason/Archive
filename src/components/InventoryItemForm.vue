@@ -1,23 +1,15 @@
 <template>
   <form v-on:submit="formSubmitted" v-if="form">
-    <div class="form-group">
-      <label>Name</label>
-      <input type="text" class="form-control" v-model="form.name" autocomplete="off" required />
-    </div>
-    <div class="form-group">
-      <label>Location</label>
-      <input type="text" class="form-control" v-model="form.location" autocomplete="off" required />
-    </div>
-    <div class="form-group">
-      <label>Quantity</label>
-      <input type="number" class="form-control" v-model="form.quantity" autocomplete="off" required />
-    </div>
-    <div class="form-group">
-      <label>Description</label>
+    <div
+      v-for="[field, fieldType] in Object.entries($store.getters.inventoryItemFields || {})"
+      :key="field"
+      class="form-group"
+    >
+      <label>{{ field }}</label>
       <input
-        type="text"
+        :type="fieldType"
         class="form-control"
-        v-model="form.description"
+        v-model="form[field]"
         autocomplete="off"
         required
       />

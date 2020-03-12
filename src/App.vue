@@ -1,13 +1,25 @@
 <template>
   <div id="app" class="container">
-    <div class="row">
+    <div class="row mt-3">
       <div class="col-sm">
+        <h2 class="mb-3">Inventory items</h2>
         <transition-group name="fade" tag="div">
           <InventoryItem v-for="item in $store.getters.inventoryItems" :item="item" :key="item.id" />
         </transition-group>
+        <Spinner v-if="loadingInventoryItems" />
+        <div
+          :class="'alert alert-' + ($store.getters.inventoryItems === null ? 'danger' : 'primary')"
+          role="alert"
+          v-if="!loadingInventoryItems && (!$store.getters.inventoryItems || $store.getters.inventoryItems.length == 0)"
+        >{{$store.getters.inventoryItems === null ? 'Unable to connect to server' : 'No results found'}}</div>
       </div>
-      <div class="col-sm">
-        <InventoryItemForm @form-submitted="addItem" :submitText="'Save'" :cancelText="'Clear'" />
+      <div class="col-sm mt-5">
+        <InventoryItemForm
+          @form-submitted="addNewItem"
+          :submitText="'Save'"
+          :cancelText="'Clear'"
+          v-if="$store.getters.inventoryItemFields"
+        />
       </div>
     </div>
     <InventoryItemEditModal />
@@ -20,6 +32,7 @@ import axios from "axios";
 import InventoryItem from "./components/InventoryItem";
 import InventoryItemEditModal from "./components/InventoryItemEditModal";
 import InventoryItemForm from "./components/InventoryItemForm";
+import Spinner from "./components/Spinner";
 
 export default {
   name: "App",
@@ -27,16 +40,33 @@ export default {
   components: {
     InventoryItem,
     InventoryItemEditModal,
-    InventoryItemForm
+    InventoryItemForm,
+    Spinner
+  },
+  data: function() {
+    return {
+      loadingInventoryItems: true
+    };
   },
   created: function() {
-    axios.get(`${store.getters.endpoint}/InventoryItems/`).then(response => {
-      store.commit("setInventoryItems", response.data.data);
-    });
+    axios
+      .get(`${store.getters.endpoint}/InventoryItems/`)
+      .then(response => {
+        store.commit("setInventoryItems", response.data.data);
+        this.loadingInventoryItems = false;
+      })
+      .catch(() => {
+        this.loadingInventoryItems = false;
+      });
+
+    axios
+      .get(`${store.getters.endpoint}/InventoryItems/GetInventoryFields`)
+      .then(response => {
+        store.commit("setInventoryItemFields", response.data.data);
+      });
   },
   methods: {
-    addItem: function(itemData) {
-      console.log(this.$store.getters.itemToEdit);
+    addNewItem: function(itemData) {
       axios
         .post(
           `${this.$store.getters.endpoint}/InventoryItems/AddInventoryItem`,
