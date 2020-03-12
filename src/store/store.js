@@ -1,3 +1,4 @@
+import axios from "axios";
 import Vue from 'vue';
 import Vuex from 'vuex';
 
@@ -26,5 +27,35 @@ export const store = new Vuex.Store({
         inventoryItemFields: state => state.inventoryItemFields,
         endpoint: state => state.endpoint,
         itemToEdit: state => state.itemToEdit
+    },
+    actions: {
+        getInventoryItems(context) {
+            return axios.get(`${context.getters.endpoint}/InventoryItems/`);
+        },
+        getInventoryItemFields(context) {
+            return axios.get(`${context.getters.endpoint}/InventoryItems/GetInventoryFields`);
+        },
+        addInventoryItem(context, newItem) {
+            return axios
+                .post(
+                    `${context.getters.endpoint}/InventoryItems/AddInventoryItem`,
+                    newItem,
+                    {
+                        headers: {
+                            "Content-Type": "application/json"
+                        }
+                    }
+                )
+        },
+        editInventoryItem(context, itemData) {
+            return axios
+                .put(
+                    `${context.getters.endpoint}/InventoryItems/EditInventoryItem/`,
+                    itemData
+                )
+        },
+        deleteInventoryItem(context, itemId) {
+            return axios.delete(`${context.getters.endpoint}/InventoryItems/DeleteInventoryItem/${itemId}`);
+        }
     }
 })

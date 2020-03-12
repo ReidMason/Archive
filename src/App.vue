@@ -28,7 +28,6 @@
 
 <script>
 import { store } from "./store/store";
-import axios from "axios";
 import InventoryItem from "./components/InventoryItem";
 import InventoryItemEditModal from "./components/InventoryItemEditModal";
 import InventoryItemForm from "./components/InventoryItemForm";
@@ -49,34 +48,21 @@ export default {
     };
   },
   created: function() {
-    axios
-      .get(`${store.getters.endpoint}/InventoryItems/`)
+    store
+      .dispatch("getInventoryItems")
       .then(response => {
         store.commit("setInventoryItems", response.data.data);
-        this.loadingInventoryItems = false;
       })
-      .catch(() => {
-        this.loadingInventoryItems = false;
-      });
+      .finally(() => (this.loadingInventoryItems = false));
 
-    axios
-      .get(`${store.getters.endpoint}/InventoryItems/GetInventoryFields`)
-      .then(response => {
-        store.commit("setInventoryItemFields", response.data.data);
-      });
+    store.dispatch("getInventoryItemFields").then(response => {
+      store.commit("setInventoryItemFields", response.data.data);
+    });
   },
   methods: {
-    addNewItem: function(itemData) {
-      axios
-        .post(
-          `${this.$store.getters.endpoint}/InventoryItems/AddInventoryItem`,
-          itemData,
-          {
-            headers: {
-              "Content-Type": "application/json"
-            }
-          }
-        )
+    addNewItem: function(newItem) {
+      store
+        .dispatch("addInventoryItem", newItem)
         .then(response =>
           this.$store.commit("setInventoryItems", response.data.data)
         );

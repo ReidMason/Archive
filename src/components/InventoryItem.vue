@@ -21,8 +21,6 @@
 </template>
 
 <script>
-import axios from "axios";
-
 export default {
   name: "InventoryItem",
   props: {
@@ -30,10 +28,8 @@ export default {
   },
   methods: {
     deleteItem: function() {
-      axios
-        .delete(
-          `${this.$store.getters.endpoint}/InventoryItems/DeleteInventoryItem/${this.item.id}`
-        )
+      this.$store
+        .dispatch("deleteInventoryItem", this.item.id)
         .then(response =>
           this.$store.commit("setInventoryItems", response.data.data)
         );

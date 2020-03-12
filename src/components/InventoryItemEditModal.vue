@@ -32,7 +32,6 @@
 
 <script>
 import InventoryItemForm from "./InventoryItemForm.vue";
-import axios from "axios";
 
 export default {
   name: "InventoryItemEditModal",
@@ -41,11 +40,8 @@ export default {
   },
   methods: {
     editItem: function(itemData) {
-      axios
-        .put(
-          `${this.$store.getters.endpoint}/InventoryItems/EditInventoryItem/`,
-          itemData
-        )
+      this.$store
+        .dispatch("editInventoryItem", itemData)
         .then(response =>
           this.$store.commit("setInventoryItems", response.data.data)
         );
