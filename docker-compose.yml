@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  borgmatic:
+    build: 
+        context: .
+    volumes:
+      # Config location
+      - ./data:/data
+
+      # Files to back up
+      - ./backupdirs:/backupdirs/
+
+      # Backup location
+      - ./backups:/backups/

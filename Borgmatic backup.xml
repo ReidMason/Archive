@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+    <Date>2021-03-01</Date>
+    <Beta>False</Beta>
+    <Name>Borgmatic backup</Name>
+    <Overview>
+        A script for performing borgmatic backups.
+    </Overview>
+    <Registry>https://registry.hub.docker.com/u/skippythesnake/borgmatic-backup</Registry>
+    <GitHub>https://github.com/SkippyTheSnake/borgmatic-backup</GitHub>
+    <Repository>skippythesnake/borgmatic-backup</Repository>
+    <Support>https://github.com/SkippyTheSnake/borgmatic-backup</Support>
+    <BindTime>true</BindTime>
+    <Privileged>false</Privileged>
+    <Networking>
+        <Mode>host</Mode>
+    </Networking>
+    <Environment>
+        <Variable>
+            <Name>SENDER_EMAIL</Name>
+            <Value></Value>
+        </Variable>
+        <Variable>
+            <Name>SENDER_EMAIL_PASSWORD</Name>
+            <Value></Value>
+        </Variable>
+        <Variable>
+            <Name>RECIPIENT</Name>
+            <Value></Value>
+        </Variable>
+        <Variable>
+            <Name>GUID</Name>
+            <Value>100</Value>
+        </Variable>
+        <Variable>
+            <Name>PUID</Name>
+            <Value>99</Value>
+        </Variable>
+    </Environment>
+    <Data>
+        <Volume>
+            <HostDir>/mnt/user/appdata/borgmaticBackup</HostDir>
+            <ContainerDir>/data</ContainerDir>
+            <Mode>rw</Mode>
+        </Volume>
+        <Volume>
+            <HostDir>/data/to/backup</HostDir>
+            <ContainerDir>/backupdirs</ContainerDir>
+            <Mode>r</Mode>
+        </Volume>
+        <Volume>
+            <HostDir>/path/to/backups</HostDir>
+            <ContainerDir>/backupdirs</ContainerDir>
+            <Mode>rw</Mode>
+        </Volume>
+    </Data>
+</Containers>
