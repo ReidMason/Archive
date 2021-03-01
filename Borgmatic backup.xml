@@ -50,7 +50,7 @@
         </Volume>
         <Volume>
             <HostDir>/path/to/backups</HostDir>
-            <ContainerDir>/backupdirs</ContainerDir>
+            <ContainerDir>/backups</ContainerDir>
             <Mode>rw</Mode>
         </Volume>
     </Data>
