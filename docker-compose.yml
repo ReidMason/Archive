@@ -12,3 +12,8 @@ services:
 
       # Backup location
       - ./backups:/backups/
+    environment: 
+      - GUID=1000
+      - SENDER_EMAIL=SkippyTheSnakeControl@gmail.com
+      - SENDER_EMAIL_PASSWORD=FRL2yYRK2m2lTucZ4m^F
+      - RECIPIENT=maddogshain132@gmail.com

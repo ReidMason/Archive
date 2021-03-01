@@ -46,7 +46,7 @@
         <Volume>
             <HostDir>/data/to/backup</HostDir>
             <ContainerDir>/backupdirs</ContainerDir>
-            <Mode>r</Mode>
+            <Mode>ro</Mode>
         </Volume>
         <Volume>
             <HostDir>/path/to/backups</HostDir>

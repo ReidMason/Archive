@@ -11,6 +11,6 @@ BORG_CACHE_DIR = ("" if IS_DEV else "/") + "data/cache/"
 PUID = int(os.getenv('PUID', 99))
 GUID = int(os.getenv('GUID', 100))
 
-SEND_ADDRESS = os.getenv("SENDER_EMAIL")
-PASSWORD = os.getenv("SENDER_EMAIL_PASSWORD")
-RECIPIENT = os.getenv("RECIPIENT")
+SEND_ADDRESS = os.getenv("SENDER_EMAIL", "Not set")
+PASSWORD = os.getenv("SENDER_EMAIL_PASSWORD", "Not set")
+RECIPIENT = os.getenv("RECIPIENT", "Not set")
