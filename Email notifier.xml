@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+    <Date>2021-03-05</Date>
+    <Beta>False</Beta>
+    <Name>Email notifier</Name>
+    <Overview>
+        An api for sending notification emails.
+    </Overview>
+    <Registry>https://registry.hub.docker.com/u/skippythesnake/email-notifier</Registry>
+    <GitHub>https://github.com/SkippyTheSnake/email-notifier</GitHub>
+    <Repository>skippythesnake/email-notifier</Repository>
+    <Support>https://github.com/SkippyTheSnake/email-notifier</Support>
+    <BindTime>true</BindTime>
+    <Privileged>false</Privileged>
+    <Networking>
+        <Mode>host</Mode>
+        <Publish>
+            <Port>
+                <HostPort>5004</HostPort>
+                <ContainerPort>5004</ContainerPort>
+                <Protocol>tcp</Protocol>
+                <Description>API port</Description>
+            </Port>
+        </Publish>
+    </Networking>
+    <Environment>
+        <Variable>
+            <Name>SENDER_ADDRESS</Name>
+            <Value></Value>
+        </Variable>
+        <Variable>
+            <Name>SENDER_PASSWORD</Name>
+            <Value></Value>
+        </Variable>
+        <Variable>
+            <Name>RECIPIENTS</Name>
+            <Value></Value>
+        </Variable>
+        <Variable>
+            <Name>MAIL_SERVER</Name>
+            <Value>smtp.gmail.com</Value>
+        </Variable>
+        <Variable>
+            <Name>MAIL_PORT</Name>
+            <Value>587</Value>
+        </Variable>
+        <Variable>
+            <Name>AUTH_TOKEN</Name>
+            <Value></Value>
+        </Variable>
+        <Variable>
+            <Name>PORT</Name>
+            <Value>5004</Value>
+        </Variable>
+    </Environment>
+</Containers>
