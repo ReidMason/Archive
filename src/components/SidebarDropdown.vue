@@ -15,13 +15,16 @@
 
     <div class="collapse-wrapper">
       <b-collapse :visible="dropdownData.visible">
-        <p
+        <div
           class="collapse-element"
           v-for="(item, i) in dropdownData.items"
           :key="i"
         >
-          {{ item.text }}
-        </p>
+          <router-link v-if="item.link" :to="item.link">{{
+            item.text
+          }}</router-link>
+          <p v-else>{{ item.text }}</p>
+        </div>
       </b-collapse>
     </div>
   </div>

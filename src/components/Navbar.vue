@@ -4,6 +4,8 @@
     <div class="text-light toggle-button" @click="toggleSidebar">
       Toggle sidebar
     </div>
+    <b-nav-item :to="{ path: '/' }">Home</b-nav-item>
+    <b-nav-item :to="{ path: '/about' }">About</b-nav-item>
   </b-nav>
 </template>
 

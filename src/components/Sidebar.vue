@@ -2,6 +2,7 @@
   <div class="text-white" id="sidebar">
     <b-sidebar
       body-class="custom-sidebar"
+      no-close-on-route-change
       :visible="visible"
       bg-variant="dark"
       no-header
@@ -42,7 +43,8 @@ export default {
           visible: false,
           items: [
             {
-              text: "Static navigation",
+              text: "To about page",
+              link: "/about",
             },
             {
               text: "Light sidenav",

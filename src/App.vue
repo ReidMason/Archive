@@ -7,7 +7,7 @@
         class="content-wrapper"
         :class="{ 'content-offset': sidebarVisible }"
       >
-        <Content />
+        <router-view />
       </div>
     </div>
   </div>
@@ -16,14 +16,12 @@
 <script>
 import Sidebar from "./components/Sidebar";
 import Navbar from "./components/Navbar";
-import Content from "./components/Content";
 
 export default {
   name: "App",
   components: {
     Sidebar,
     Navbar,
-    Content,
   },
   data: function () {
     return {
@@ -32,6 +30,7 @@ export default {
   },
   methods: {
     toggleSidebar() {
+      console.log("Toggling sidebar");
       this.sidebarVisible = !this.sidebarVisible;
     },
   },
