@@ -26,19 +26,21 @@ export default {
     resolve(),
     commonjs(),
     typescript({ useTsconfigDeclarationDir: true }),
-    postcss(),
+    postcss({
+      config: {
+        path: "./postcss.config.js"
+      }
+    }),
     copy({
       targets: [
         {
-          src: "src/variables.scss",
+          src: "src/*.scss",
           dest: "build",
-          rename: "variables.scss"
         },
         {
-          src: "src/typography.scss",
+          src: "src/*.css",
           dest: "build",
-          rename: "typography.scss"
-        }
+        },
       ]
     })
   ]

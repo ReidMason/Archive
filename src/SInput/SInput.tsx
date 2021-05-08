@@ -1,5 +1,4 @@
 import React from 'react';
-import "./SInput.scss";
 
 interface SInputProps {
     name?: string;
@@ -17,6 +16,6 @@ export default function SInput({ name, placeholder, value, setValue, type, disab
     const inputAutocomplete = autoComplete ?? "off";
 
     return (
-        <input className="s-input" name={name} type={inputType} placeholder={placeholder} disabled={inputDisabled} value={value} onChange={(e) => (setValue(e.target.value))} autoComplete={inputAutocomplete} />
+        <input className="text-snow-3 p-2 rounded bg-night-4 border border-night-4 disabled:cursor-not-allowed disabled:opacity-50" name={name} type={inputType} placeholder={placeholder} disabled={inputDisabled} value={value} onChange={(e) => (setValue(e.target.value))} autoComplete={inputAutocomplete} />
     )
 }

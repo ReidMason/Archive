@@ -2,14 +2,7 @@
 
 $font-family: 'Roboto', 'Open Sans', Courier, monospace;
 
-@mixin font-defaults {
+* {
   font-family: $font-family;
 }
 
-// Delete me
-@mixin heading {
-  @include font-defaults;
-
-  font-size: 40px;
-  font-weight: bold;
-}

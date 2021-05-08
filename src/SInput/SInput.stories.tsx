@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import SInput from "./SInput";
+import { SInput } from "../index";
 
 export default {
     title: "SInput"
 };
 
-export const Input1 = () => {
+export const Input = () => {
     const [value, setValue] = useState("");
     const [numberValue, setNumberValue] = useState(0);
 
