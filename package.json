@@ -42,6 +42,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
+    "@headlessui/react": "^1.1.1",
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-node-resolve": "^11.0.1",
     "@storybook/addon-actions": "^6.2.9",
@@ -62,6 +63,7 @@
     "postcss": "^7.0.35",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-popper-tooltip": "^4.2.0",
     "rollup": "^2.36.1",
     "rollup-plugin-copy": "^3.3.0",
     "rollup-plugin-peer-deps-external": "^2.2.0",

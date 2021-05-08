@@ -11,7 +11,9 @@ export const Popover = () => {
 
     return (
         <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
-            <SPopover />
+            <SPopover text="Message here with lots of text">
+                <p>Popover!</p>
+            </SPopover>
         </div>
     )
 };
