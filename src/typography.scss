@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+$font-family: 'Roboto', 'Open Sans', Courier, monospace;
+
+@mixin font-defaults {
+  font-family: $font-family;
+}
+
+// Delete me
+@mixin heading {
+  @include font-defaults;
+
+  font-size: 40px;
+  font-weight: bold;
+}

@@ -1,0 +1,63 @@
+@import "../main.scss";
+
+@mixin sbutton-base($colour, $bgColour, $hoverBgColour, $focusColour) {
+    color: $colour;  
+    background-color: $bgColour;
+    
+    &:hover {
+        background-color: $hoverBgColour;
+    }
+    
+    &:active {
+        background-color: $bgColour;
+    }
+
+    &:focus {
+        outline: none;
+        box-shadow: 0 0 0 0.25rem $focusColour;
+    }
+}
+
+.sbutton {
+    border-radius: $border-radius-md;
+    padding: 0.5rem;
+    width: 10rem;
+    cursor: pointer;
+    font-size: 1rem;
+    border: none;
+
+    &-rounded {
+        border-radius: $border-radius-full;
+    }
+
+    &-light {
+        @include sbutton-base($night-2, $snow-2, $snow-3, rgba($snow-1, 0.3));
+    }
+
+    &-dark {
+        @include sbutton-base($snow-2, $frost-4, $frost-4-light, rgba($snow-1, 0.3));
+    }
+
+    &-text {
+        @include sbutton-base($snow-2, transparent, rgba($night-3, 0.7), rgba($snow-1, 0.3));
+        text-decoration: underline;
+    }
+
+    &-outline {
+        @include sbutton-base($snow-2, transparent, rgba($night-3, 0.7), rgba($snow-1, 0.3));
+        border: solid 1px $snow-2;
+    }
+
+    &-ghost {
+        @include sbutton-base($snow-2, transparent, transparent, rgba($snow-1, 0.3));
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    &:disabled {
+        cursor: not-allowed;
+        opacity: 0.5;
+    }
+}

@@ -1,0 +1,22 @@
+@import "../main.scss";
+
+.s-input {
+    font-size: 1rem;
+    color: $snow-3;
+    padding: 0.5rem;
+    border-radius: $border-radius-md;
+    border: 1px solid $night-4;
+    background-color: $night-4;
+    
+    &::placeholder {
+        color: $placeholder-grey;
+    }
+
+    &:disabled {
+        cursor: not-allowed;
+        background-color: rgba($night-4, 0);
+        &::placeholder {
+            color: rgba($snow-1, 0.3);
+        }
+    }
+}
