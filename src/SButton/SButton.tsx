@@ -34,12 +34,13 @@ const hoverStyles: variantStyle = {
     ghost: ""
 }
 
+const baseDisabledStyles = "disabled:opacity-50 disabled:cursor-not-allowed";
 const disabledStyles: variantStyle = {
-    dark: "disabled:opacity-50 disabled:cursor-not-allowed",
-    light: "disabled:cursor-not-allowed",
-    outline: "disabled:cursor-not-allowed",
-    text: "disabled:cursor-not-allowed",
-    ghost: "disabled:cursor-not-allowed"
+    dark: `${baseDisabledStyles}`,
+    light: `${baseDisabledStyles}`,
+    outline: `${baseDisabledStyles}`,
+    text: `${baseDisabledStyles}`,
+    ghost: `${baseDisabledStyles}`
 }
 
 const activeStyles: variantStyle = {
@@ -70,13 +71,15 @@ export default function SButton({ children, disabled, variant, rounded, onClick,
     }
 
     return (
-        <button className={`w-40 p-2 flex justify-center ${variantStyle} ${roundingStyle}`} disabled={disabled} onClick={onClickFunction}>
-            <div className="flex items-center gap-2">
-                {loading &&
-                    <SLoadingSpinner />
-                }
-                {children}
-            </div>
-        </button >
+        <div>
+            <button className={`w-40 p-2 flex justify-center ${variantStyle} ${roundingStyle}`} disabled={disabled} onClick={onClickFunction}>
+                <div className="flex items-center gap-2">
+                    {loading &&
+                        <SLoadingSpinner />
+                    }
+                    {children}
+                </div>
+            </button >
+        </div>
     )
 }

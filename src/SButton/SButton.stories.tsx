@@ -10,7 +10,10 @@ export const Button = () => {
 
     return (
         <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
-            <SButton onClick={() => (setLoading(!loading))}>Dark button</SButton>
+            <div style={{ display: "flex", gap: "1rem" }}>
+                <SButton onClick={() => (setLoading(!loading))}>Dark button</SButton>
+                <SButton onClick={() => (setLoading(!loading))}>Long button with long text</SButton>
+            </div>
             <SButton loading={loading} onClick={() => (setLoading(true))}>Loading button</SButton>
             <SButton variant="text">Text button</SButton>
             <SButton variant="ghost">Ghost button</SButton>
