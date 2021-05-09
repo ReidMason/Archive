@@ -7,7 +7,7 @@
     "build"
   ],
   "types": "build/index.d.ts",
-  "description": "A skeleton to create your own React component library using Rollup, TypeScript, Sass and Storybook",
+  "description": "A react component library with some useful components",
   "scripts": {
     "build": "rollup -c",
     "test": "jest",
@@ -17,25 +17,8 @@
     "generate": "node ./util/create-component",
     "prepublishOnly": "npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/HarveyD/react-component-library.git"
-  },
-  "keywords": [
-    "React",
-    "Component",
-    "Library",
-    "Rollup",
-    "Typescript",
-    "Sass",
-    "Storybook"
-  ],
-  "author": "Harvey Delaney",
+  "author": "Reid Mason",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/HarveyD/react-component-library/issues"
-  },
-  "homepage": "https://github.com/HarveyD/react-component-library#readme",
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
