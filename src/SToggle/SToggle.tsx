@@ -50,7 +50,8 @@ export default function SToggle({ disabled, checked, setChecked, variant, srText
     const variantStyle = `${baseStyle} ${checkedStyle} ${disabledStyle}`;
 
     return (
-        <Switch className={`${variantStyle} h-7 w-14 relative inline-flex items-center rounded-full transition-colors ease-in-out duration-200`}
+        <Switch
+            className={`${variantStyle} h-7 w-14 relative inline-flex items-center rounded-full transition-colors ease-in-out duration-200`}
             disabled={disabled}
             checked={checked}
             onChange={(x) => { setChecked(x) }}
