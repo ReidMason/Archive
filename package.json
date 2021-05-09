@@ -1,5 +1,5 @@
 {
-  "name": "skippythesnakes-components",
+  "name": "skippythesnakes-react-components",
   "version": "1.0.0",
   "main": "build/index.js",
   "module": "build/index.esm.js",
@@ -14,8 +14,7 @@
     "test:watch": "jest --watch",
     "storybook": "start-storybook -p 6006",
     "storybook:export": "build-storybook",
-    "generate": "node ./util/create-component",
-    "prepublishOnly": "npm run build"
+    "generate": "node ./util/create-component"
   },
   "author": "Reid Mason",
   "license": "MIT",
