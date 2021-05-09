@@ -1,8 +1,9 @@
 import SButton from "./SButton/SButton";
-import SInput from "./SInput";
-import SPopover from "./SPopover";
+import SInput from "./SInput/SInput";
+import SPopover from "./SPopover/SPopover";
 import SToggle from "./SToggle/SToggle";
+import SModal from "./SModal/SModal"
 import "tailwindcss/tailwind.css";
 import "./main.scss";
 
-export { SButton, SInput, SPopover, SToggle };
+export { SButton, SInput, SPopover, SToggle, SModal };

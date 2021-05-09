@@ -1,5 +1,5 @@
 import React from 'react';
-import SLoadingSpinner from "../SLoadingSpinner";
+import SLoadingSpinner from "../SLoadingSpinner/SLoadingSpinner";
 
 interface SButtonProps {
     children: React.ReactNode;
