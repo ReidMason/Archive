@@ -8,6 +8,7 @@ interface SButtonProps {
     rounded?: boolean;
     onClick?: Function;
     loading?: boolean;
+    className?: string;
 }
 
 interface variantStyle {
@@ -51,7 +52,7 @@ const activeStyles: variantStyle = {
     ghost: ""
 }
 
-export default function SButton({ children, disabled, variant, rounded, onClick, loading }: SButtonProps) {
+export default function SButton({ children, disabled, variant, rounded, onClick, loading, className }: SButtonProps) {
     // Disable the button if it's loading
     if (loading)
         disabled = true;
@@ -71,8 +72,8 @@ export default function SButton({ children, disabled, variant, rounded, onClick,
     }
 
     return (
-        <div>
-            <button className={`w-40 p-2 flex justify-center ${variantStyle} ${roundingStyle}`} disabled={disabled} onClick={onClickFunction}>
+        <div className={className}>
+            <button className={`p-2 px-4 flex justify-center ${variantStyle} ${roundingStyle}`} disabled={disabled} onClick={onClickFunction}>
                 <div className="flex items-center gap-2">
                     {loading &&
                         <SLoadingSpinner />

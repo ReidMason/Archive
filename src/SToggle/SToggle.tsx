@@ -8,6 +8,7 @@ interface SToggleProps {
     setChecked: Function;
     variant?: "dark" | "light" | "outline";
     srText?: string;
+    className?: string;
 }
 
 export interface VariantStyle {
@@ -41,7 +42,7 @@ const disabledStyles: VariantStyle = {
     outline: `${baseDisabledStyles}`,
 }
 
-export default function SToggle({ disabled, checked, setChecked, variant, srText }: SToggleProps) {
+export default function SToggle({ disabled, checked, setChecked, variant, srText, className }: SToggleProps) {
     const variantTheme = variant ?? "dark";
     const baseStyle = baseStyles[variantTheme];
     const disabledStyle = disabled ? disabledStyles[variantTheme] : "";
@@ -51,7 +52,7 @@ export default function SToggle({ disabled, checked, setChecked, variant, srText
 
     return (
         <Switch
-            className={`${variantStyle} h-7 w-14 relative inline-flex items-center rounded-full transition-colors ease-in-out duration-200`}
+            className={`${className} ${variantStyle} h-7 w-14 relative inline-flex items-center rounded-full transition-colors ease-in-out duration-200`}
             disabled={disabled}
             checked={checked}
             onChange={(x) => { setChecked(x) }}

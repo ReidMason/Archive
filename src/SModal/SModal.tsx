@@ -1,13 +1,33 @@
-import React, { Fragment } from 'react'
+import React, { Fragment } from 'react';
 import { Dialog, Transition } from '@headlessui/react';
 import { SButton } from '..';
 
 interface SModalProps {
     open: boolean;
     setOpen: Function;
+    children: React.ReactElement | React.ReactElement[];
 }
 
-export default function SModal({ open, setOpen }: SModalProps) {
+interface ChildProps {
+    children: JSX.Element | JSX.Element[];
+}
+
+const Title = ({ }: ChildProps) => null;
+const Body = ({ }: ChildProps) => null;
+const Footer = ({ }: ChildProps) => null;
+
+function SModal({ open, setOpen, children }: SModalProps) {
+    const singleChild = (children as React.ReactElement[]).length === undefined;
+
+    if (!singleChild) {
+        children = children as React.ReactElement[];
+        var title = children.find(el => el.type === Title);
+        var body = children.find(el => el.type === Body);
+        var footer = children.find(el => el.type === Footer);
+    } else {
+        var body = children as React.ReactElement;
+    }
+
     const close = () => {
         setOpen(false);
     }
@@ -47,13 +67,19 @@ export default function SModal({ open, setOpen }: SModalProps) {
                         leaveFrom="opacity-100 scale-100"
                         leaveTo="opacity-0 scale-95"
                     >
-                        <div className="inline-block opacity-100 w-full max-w-md p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-lg">
-                            <Dialog.Title>Title</Dialog.Title>
-                            <Dialog.Description>
-                                Description
-                    </Dialog.Description>
-                        Content
-                    <SButton onClick={close}>Close</SButton>
+                        <div className="bg-night-2 inline-block opacity-100 w-full max-w-md p-6 my-8 overflow-hidden text-left align-middle transition-all transform shadow-xl rounded-lg">
+                            <Dialog.Title>
+                                <div>
+                                    {title && title.props.children}
+                                </div>
+                            </Dialog.Title>
+                            <div>
+                                {body && body.props.children}
+                            </div>
+
+                            <div>
+                                {footer && footer.props.children}
+                            </div>
                         </div>
                     </Transition.Child>
                 </div>
@@ -61,3 +87,9 @@ export default function SModal({ open, setOpen }: SModalProps) {
         </Transition>
     )
 }
+
+SModal.Title = Title;
+SModal.Body = Body;
+SModal.Footer = Footer;
+
+export default SModal;

@@ -29,12 +29,12 @@ module.exports = {
           3: "#81A1C1",
           4: "#5E81AC"
         },
-        red: "#BF616A",
-        orange: "#D08770",
-        yellow: "#EBCB8B",
-        green: "#A3BE8C",
-        purple: "#B48EAD"
-      }
+        "nord-red": "#BF616A",
+        "nord-orange": "#D08770",
+        "nord-yellow": "#EBCB8B",
+        "nord-green": "#A3BE8C",
+        "nord-purple": "#B48EAD"
+      },
     },
   },
   variants: {
