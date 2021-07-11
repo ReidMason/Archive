@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { SModal, SButton, SInput } from "../index";
 
 export default {
-    title: "Smodal"
+    title: "SModal"
 };
 
 export const Modal = () => {
