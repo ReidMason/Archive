@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d52e7c724a89a546848665b4f5889f1, type: 3}
+  m_Name: United Space Navy Faction
+  m_EditorClassIdentifier: 
+  label: United Space Navy
+  abbreviation: USN
+  ID: 1
+  primaryColour: {r: 1, g: 0.3234977, b: 0, a: 1}
+  secondaryColour: {r: 0.1254902, g: 0.015686275, b: 0.5647059, a: 1}
+  largeInsignia: {fileID: 2800000, guid: b958c6ecd817e9e4e831d9fad13b1e74, type: 3}
+  smallInsignia: {fileID: 2800000, guid: 80827ec1589956f4dbfb4a2644816dd6, type: 3}
+  _stations: []
+  _enemyStructures:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _neutralStructures: []
+  _friendlyStructures:
+  - {fileID: 0}

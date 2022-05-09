@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebfc88ebe8c28e3449d49b14c47247b5, type: 3}
+  m_Name: CommsSystemData_MediumGain
+  m_EditorClassIdentifier: 
+  __debugKey: 0
+  __type: COMMSSYSTEM
+  __subType: MEDIUMGAIN
+  __techLevel: 1
+  __priority: 0
+  __cost: 75
+  __requiredPower: 15
+  __activeHeat: 1
+  __emField: 0
+  __activatingDelay: 3
+  __deactivatingDelay: 6
+  __activeOn: 1
+  __activeOnSpawn: 1
+  __roundTrip: 10

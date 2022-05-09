@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1785992968560356075
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3770430136412340419}
+  - component: {fileID: 5992355627088200397}
+  m_Layer: 0
+  m_Name: InstaHeal
+  m_TagString: Device
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3770430136412340419
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785992968560356075}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5992355627088200397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785992968560356075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 202cdebf89430f144a67ce6b1211ed82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _ResourcePath: 
+  _Type: INSTAHEAL
+  _SubType: BASIC
+  _TechLevel: 1
+  _Priority: 0
+  _Cost: 100
+  reroutedPower: 0
+  powerGeneration: 0
+  requiredPower: 0
+  activeHeat: 50
+  EMField: 0
+  activatingDelay: 2
+  deactivatingDelay: 2
+  activatingTimer: 0
+  deactivatingTimer: 0
+  activeOn: 0
+  activeOnSpawn: 1
+  destroyed: 0
+  amount: 20

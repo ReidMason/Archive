@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfdad42c6edcf5c44b644f040e55259c, type: 3}
+  m_Name: Ska Freighter TypeA Convoy
+  m_EditorClassIdentifier: 
+  label: 
+  faction: {fileID: 0}
+  factionLabel: {fileID: 0}
+  nameLabel: {fileID: 0}
+  spawnHidden: 0
+  respawnsAtStartSpot: 0
+  despawnTime: 0
+  respawnTime: 0
+  hullCost: 3500
+  hullStrength: 500
+  mass: 10000
+  aspectRadius: 40
+  maxFireGroups: 1
+  maxDevices: 7
+  maxModules: 5
+  numShieldSockets: 1
+  numMixedSockets: 0
+  maxWeapons: 3
+  numLaunchers: 0
+  numTurrets: 3
+  numEmitters: 0
+  numMixedLaunchersAndTurrets: 0
+  numMixedGenericWeapons: 0
+  maxDockingPorts: 0
+  maxHangars: 0
+  speedLimiter: 60
+  afterburnerCapable: 0
+  warpCapable: 0
+  numEngineSockets: 0
+  maxForce: 50000
+  maxTurnRate: 8.5

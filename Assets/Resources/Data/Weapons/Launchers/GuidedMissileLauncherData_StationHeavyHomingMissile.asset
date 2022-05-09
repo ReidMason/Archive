@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1df606e99f18cb4d82242d8b12fdfd2, type: 3}
+  m_Name: GuidedMissileLauncherData_StationHeavyHomingMissile
+  m_EditorClassIdentifier: 
+  __debugKey: 0
+  __type: GUIDEDMISSILELAUNCHER
+  __subType: STATIONHEAVYHOMINGMISSILE
+  __techLevel: 4
+  __priority: 0
+  __cost: 350
+  __requiredPower: 200
+  __activeHeat: 15
+  __emField: 0
+  __activatingDelay: 10
+  __deactivatingDelay: 10
+  __activeOn: 1
+  __activeOnSpawn: 1
+  __aspectRadius: 10
+  __maxArmour: 650
+  __explosion: {fileID: 1000011437209572, guid: 691c68bc3be72b448921f45e144de6d7,
+    type: 3}
+  __damageOnDestroy: 0
+  __maxAmmo: 30
+  __effectPrefab: {fileID: 1000010686269148, guid: 56b29fddfdbe19143979806a54ac24bf,
+    type: 3}
+  __powerPerShot: 3
+  __heatPerShot: 30
+  __minRange: 200
+  __maxRange: 1500
+  __baseDamage: 200
+  __fireRate: 10
+  __canReveal: 1
+  __lockTime: 2

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfdad42c6edcf5c44b644f040e55259c, type: 3}
+  m_Name: USN Racing Corvette
+  m_EditorClassIdentifier: 
+  label: 
+  faction: {fileID: 0}
+  factionLabel: {fileID: 0}
+  nameLabel: {fileID: 0}
+  spawnHidden: 0
+  respawnsAtStartSpot: 0
+  despawnTime: 0
+  respawnTime: 0
+  hullCost: 1400
+  hullStrength: 0
+  mass: 1190
+  aspectRadius: 7
+  maxFireGroups: 0
+  maxDevices: 7
+  maxModules: 2
+  numShieldSockets: 0
+  numMixedSockets: 0
+  maxWeapons: 0
+  numLaunchers: 0
+  numTurrets: 0
+  numEmitters: 0
+  numMixedLaunchersAndTurrets: 0
+  numMixedGenericWeapons: 0
+  maxDockingPorts: 0
+  maxHangars: 0
+  speedLimiter: 150
+  afterburnerCapable: 1
+  warpCapable: 1
+  numEngineSockets: 2
+  maxForce: 225000
+  maxTurnRate: 80

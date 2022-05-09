@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfdad42c6edcf5c44b644f040e55259c, type: 3}
+  m_Name: USN Standard Medium Carrier
+  m_EditorClassIdentifier: 
+  label: 
+  faction: {fileID: 0}
+  factionLabel: {fileID: 0}
+  nameLabel: {fileID: 0}
+  spawnHidden: 0
+  respawnsAtStartSpot: 0
+  despawnTime: 0
+  respawnTime: 0
+  hullCost: 7000
+  hullStrength: 0
+  mass: 12500
+  aspectRadius: 75
+  maxFireGroups: 2
+  maxDevices: 10
+  maxModules: 4
+  numShieldSockets: 2
+  numMixedSockets: 0
+  maxWeapons: 2
+  numLaunchers: 1
+  numTurrets: 1
+  numEmitters: 0
+  numMixedLaunchersAndTurrets: 0
+  numMixedGenericWeapons: 0
+  maxDockingPorts: 2
+  maxHangars: 1
+  speedLimiter: 55
+  afterburnerCapable: 0
+  warpCapable: 1
+  numEngineSockets: 2
+  maxForce: 135000
+  maxTurnRate: 15

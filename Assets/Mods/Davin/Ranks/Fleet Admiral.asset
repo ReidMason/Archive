@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1c277bef1bfe7469696ff4ce3016ea, type: 3}
+  m_Name: Fleet Admiral
+  m_EditorClassIdentifier: 
+  rank: Fleet Admiral
+  abbreviation: FAdm
+  insignia: {fileID: 2800000, guid: 4656e0d8ef3171e469018a45a7299224, type: 3}
+  rankingCredits: 14500

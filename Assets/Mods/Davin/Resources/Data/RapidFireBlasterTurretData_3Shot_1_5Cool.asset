@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b2d0423533b13c40a283388382ec431, type: 3}
+  m_Name: RapidFireBlasterTurretData_3Shot_1_5Cool
+  m_EditorClassIdentifier: 
+  __debugKey: 0
+  __type: BLASTERTURRET
+  __subType: RAPIDFIREMEDIUM
+  __techLevel: 2
+  __priority: 0
+  __cost: 175
+  __requiredPower: 275
+  __activeHeat: 25
+  __emField: 0
+  __activatingDelay: 10
+  __deactivatingDelay: 5
+  __activeOn: 1
+  __activeOnSpawn: 1
+  __aspectRadius: 2.25
+  __maxArmour: 425
+  __explosion: {fileID: 1000011437209572, guid: a7d1a66b45cd86c4f8d15db26667a279,
+    type: 3}
+  __damageOnDestroy: 0
+  __maxAmmo: -1
+  __effectPrefab: {fileID: 1000010663234608, guid: d1abb3fe6d90b0f4e83cbe955ab2b182,
+    type: 3}
+  __powerPerShot: 12
+  __heatPerShot: 2
+  __minRange: 35
+  __maxRange: 550
+  __baseDamage: 15
+  __fireRate: 0.1
+  __canReveal: 0
+  __autoFire: 1
+  __slewSpeed: 5
+  __trackingAngle: 0.3
+  __transversalDamage: 0
+  __shieldDamageModifier: 0.5
+  __hullDamageModifier: 2
+  __boltsToFire: 3
+  __cooldown: 1.5

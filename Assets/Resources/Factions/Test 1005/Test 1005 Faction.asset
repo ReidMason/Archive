@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d52e7c724a89a546848665b4f5889f1, type: 3}
+  m_Name: Test 1005 Faction
+  m_EditorClassIdentifier: 
+  label: Test 1005
+  abbreviation: T1005
+  ID: 1005
+  primaryColour: {r: 0.9960785, g: 0.6, b: 0.37254903, a: 0}
+  secondaryColour: {r: 0.97647065, g: 0.78823537, b: 0.4156863, a: 0}
+  largeInsignia: {fileID: 2800000, guid: ec77dcc474f0d3649b8715451908a62d, type: 3}
+  smallInsignia: {fileID: 2800000, guid: 1934804c5a2c63c43b2aa40c3111f0c7, type: 3}
+  _stations: []
+  _enemyStructures: []
+  _neutralStructures: []
+  _friendlyStructures: []

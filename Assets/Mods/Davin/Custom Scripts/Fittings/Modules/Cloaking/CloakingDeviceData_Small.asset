@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2732149c902e1644085f57686801c88c, type: 3}
+  m_Name: CloakingDeviceData_Small
+  m_EditorClassIdentifier: 
+  __debugKey: 0
+  __type: CLOAKINGDEVICE
+  __subType: SMALL
+  __techLevel: 2
+  __priority: 0
+  __cost: 300
+  __requiredPower: 150
+  __activeHeat: 5
+  __emField: 0
+  __activatingDelay: 3
+  __deactivatingDelay: 3
+  __activeOn: 1
+  __activeOnSpawn: 1
+  __aspectRadius: 2
+  __maxArmour: 250
+  __explosion: {fileID: 1000012454535104, guid: b113ea0d3a0abb44f8691167a02b88fe,
+    type: 3}
+  __damageOnDestroy: 0
+  __maxStructureSize: 1
+  __cloakDelay: 2.5
+  __buffData: {fileID: 11400000, guid: e8f2b648608af174885542ec78de82b5, type: 2}

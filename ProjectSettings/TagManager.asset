@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Socket
+  - Module
+  - Structure
+  - Ship
+  - Device
+  - Shield
+  - Weapon
+  - Projectile
+  - VFX
+  - NavPoint
+  - Target
+  - Marker
+  - HealthBar
+  - WarpGate
+  - Environmental
+  - Asteroid
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Backdrop
+  - Celestial
+  - Structure
+  - Ship
+  - Module
+  - Projectile
+  - Shield
+  - VFX
+  - Collidable
+  - NavPoint
+  - Marker
+  - Environmental
+  - Arena
+  - Hanger
+  - WarpGate
+  - Outline
+  - Cloaked
+  - Socket
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Colossal
+    uniqueID: 1208943131
+    locked: 0
+  - name: Gigantic
+    uniqueID: 2365765041
+    locked: 0
+  - name: Enormous
+    uniqueID: 1352038647
+    locked: 0
+  - name: Massive
+    uniqueID: 4118324395
+    locked: 0
+  - name: Large
+    uniqueID: 427596023
+    locked: 0
+  - name: Medium
+    uniqueID: 3932928093
+    locked: 0
+  - name: Small
+    uniqueID: 3398515805
+    locked: 0
+  - name: Tiny
+    uniqueID: 3837860405
+    locked: 0
+  - name: UI
+    uniqueID: 4050339643
+    locked: 0

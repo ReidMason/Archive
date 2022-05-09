@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b411296c0827cf842bbe31c58740ea8f, type: 3}
+  m_Name: UnguidedBombLauncherData_WarpBomb
+  m_EditorClassIdentifier: 
+  __debugKey: 0
+  __type: UNGUIDEDBOMBLAUNCHER
+  __subType: WARPBOMB
+  __techLevel: 2
+  __priority: 0
+  __cost: 200
+  __requiredPower: 60
+  __activeHeat: 1
+  __emField: 0
+  __activatingDelay: 4
+  __deactivatingDelay: 4
+  __activeOn: 1
+  __activeOnSpawn: 1
+  __aspectRadius: 1.5
+  __maxArmour: 225
+  __explosion: {fileID: 1000011437209572, guid: 691c68bc3be72b448921f45e144de6d7,
+    type: 3}
+  __damageOnDestroy: 0
+  __maxAmmo: 12
+  __effectPrefab: {fileID: 1000010638967336, guid: c0897b7b598fec04fbd86adcc6363754,
+    type: 3}
+  __powerPerShot: 5
+  __heatPerShot: 8
+  __minRange: 50
+  __maxRange: 1200
+  __baseDamage: 600
+  __fireRate: 4
+  __canReveal: 1
+  __autoFire: 1

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NoxCore.Fittings.Weapons.BlasterTurret" Collapsed="true">
+    <Position X="3.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEBAAAAAEAAAAAAAAAAAAAAgAAQAAEIAAAAAAAAEAAI=</HashCode>
+      <FileName>Assets\Core Scripts\Fittings\Weapons\Turrets\Blasters\BlasterTurret.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NoxCore.Fittings.Weapons.RotatingTurret" Collapsed="true">
+    <Position X="3.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAABAAAAAAAAAAAAQACAAAgABQAIAAAEAQAEEAAI=</HashCode>
+      <FileName>Assets\Core Scripts\Fittings\Weapons\Turrets\RotatingTurret.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NoxCore.Fittings.Weapons.TargetableWeapon" Collapsed="true">
+    <Position X="6.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAADmAEQAQEAAEBCAAAgmQAAAQAAQcIAAADUAAAAAA=</HashCode>
+      <FileName>Assets\Core Scripts\Fittings\Weapons\TargetableWeapon.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NoxCore.Fittings.Weapons.Weapon" Collapsed="true">
+    <Position X="6.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGAAClBEAAAAQaQACEAAAHQAAAwIEBJYDCAgKAAEQAQ=</HashCode>
+      <FileName>Assets\Core Scripts\Fittings\Weapons\Weapon.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NoxCore.Fittings.Weapons.LaserTurret" Collapsed="true">
+    <Position X="1.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAACEAAAAAAAACAAAAEAAgAQAAAoIAAQAAAAEAQA=</HashCode>
+      <FileName>Assets\Core Scripts\Fittings\Weapons\Turrets\Lasers\LaserTurret.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NoxCore.Fittings.Weapons.PlasmaCannon" Collapsed="true">
+    <Position X="6" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAEAAAAABAACAAAAEAAgAQgAAIAAAQAAAAEAAY=</HashCode>
+      <FileName>Assets\Core Scripts\Fittings\Weapons\Turrets\Plasmas\PlasmaCannon.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NoxCore.Fittings.Weapons.GuidedProjectileLauncher" Collapsed="true">
+    <Position X="8.5" Y="6.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAgAAAAAAAAgAAAAIAAAAAAAAEIAA=</HashCode>
+      <FileName>Assets\Core Scripts\Fittings\Weapons\Launchers\GuidedProjectileLauncher.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NoxCore.Fittings.Weapons.ProjectileLauncher" Collapsed="true">
+    <Position X="8.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEBAAAAAAAAAAEAAAAAAACAAAAQAAAIAgAAAAAAGGAA=</HashCode>
+      <FileName>Assets\Core Scripts\Fittings\Weapons\Launchers\ProjectileLauncher.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NoxCore.Fittings.Weapons.UnguidedProjectileLauncher" Collapsed="true">
+    <Position X="11.5" Y="6.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAEAAAAACAgACQAAAIgAAAAAAAGAAA=</HashCode>
+      <FileName>Assets\Core Scripts\Fittings\Weapons\Launchers\UnguidedProjectileLauncher.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NoxCore.Fittings.Modules.Module" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BIA4KAAkAEAAAAAAGBgAgMAAQAJAASIAQAIEQAAAYAg=</HashCode>
+      <FileName>Assets\Core Scripts\Fittings\Modules\Module.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
