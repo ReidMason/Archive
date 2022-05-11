@@ -1394,7 +1394,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 159619892}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a81df4a5766ee4644971a8006d2df172, type: 3}
+  m_Script: {fileID: 11500000, guid: 7396b3f342e4c2d45b75535a09ffa5d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   runningState: 0
@@ -1404,6 +1404,9 @@ MonoBehaviour:
   _structure: {fileID: 0}
   _AITickRate: 0
   _state: 
+  waypoints: []
+  currentWaypoint: 0
+  forceWaypointNavigation: 0
 --- !u!114 &159619894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5360,28 +5363,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 607092180}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &607092183
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 607092182}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7c5439203c40474788ad084536b7e53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  runningState: 0
-  warpIn: 0
-  invulnerableToArenaBoundary: 0
-  _GeneratesStats: 0
-  _structure: {fileID: 0}
-  _AITickRate: 0
-  _state: 
-  waypoints: []
-  currentWaypoint: 0
-  forceWaypointNavigation: 0
 --- !u!114 &607092184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5394,6 +5375,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b08ece392650dab499aedec06b63314b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &607092185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607092182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7396b3f342e4c2d45b75535a09ffa5d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runningState: 0
+  warpIn: 0
+  invulnerableToArenaBoundary: 0
+  _GeneratesStats: 0
+  _structure: {fileID: 0}
+  _AITickRate: 0
+  _state: 
+  waypoints: []
+  currentWaypoint: 0
+  forceWaypointNavigation: 0
 --- !u!1001 &637559693
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12914,7 +12917,7 @@ GameObject:
   - component: {fileID: 1354650993}
   - component: {fileID: 1354650992}
   - component: {fileID: 1354651000}
-  - component: {fileID: 1354650999}
+  - component: {fileID: 1354651001}
   m_Layer: 11
   m_Name: USN Squad Frigate
   m_TagString: Ship
@@ -13166,28 +13169,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1354650999
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1354650990}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7c5439203c40474788ad084536b7e53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  runningState: 0
-  warpIn: 0
-  invulnerableToArenaBoundary: 0
-  _GeneratesStats: 0
-  _structure: {fileID: 0}
-  _AITickRate: 0
-  _state: 
-  waypoints: []
-  currentWaypoint: 0
-  forceWaypointNavigation: 0
 --- !u!114 &1354651000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13200,6 +13181,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b08ece392650dab499aedec06b63314b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1354651001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354650990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7396b3f342e4c2d45b75535a09ffa5d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runningState: 0
+  warpIn: 0
+  invulnerableToArenaBoundary: 0
+  _GeneratesStats: 0
+  _structure: {fileID: 0}
+  _AITickRate: 0
+  _state: 
+  waypoints: []
+  currentWaypoint: 0
+  forceWaypointNavigation: 0
 --- !u!1001 &1375838794
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16430,28 +16433,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1743013686}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1743013689
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1743013688}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7c5439203c40474788ad084536b7e53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  runningState: 0
-  warpIn: 0
-  invulnerableToArenaBoundary: 0
-  _GeneratesStats: 0
-  _structure: {fileID: 0}
-  _AITickRate: 0
-  _state: 
-  waypoints: []
-  currentWaypoint: 0
-  forceWaypointNavigation: 0
 --- !u!114 &1743013690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16464,6 +16445,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b08ece392650dab499aedec06b63314b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1743013691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743013688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7396b3f342e4c2d45b75535a09ffa5d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runningState: 0
+  warpIn: 0
+  invulnerableToArenaBoundary: 0
+  _GeneratesStats: 0
+  _structure: {fileID: 0}
+  _AITickRate: 0
+  _state: 
+  waypoints: []
+  currentWaypoint: 0
+  forceWaypointNavigation: 0
 --- !u!1001 &1759392761
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18320,7 +18323,7 @@ GameObject:
   - component: {fileID: 1970010107}
   - component: {fileID: 1970010106}
   - component: {fileID: 1970010114}
-  - component: {fileID: 1970010113}
+  - component: {fileID: 1970010115}
   m_Layer: 11
   m_Name: USN Squad Frigate
   m_TagString: Ship
@@ -18572,28 +18575,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1970010113
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1970010104}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7c5439203c40474788ad084536b7e53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  runningState: 0
-  warpIn: 0
-  invulnerableToArenaBoundary: 0
-  _GeneratesStats: 0
-  _structure: {fileID: 0}
-  _AITickRate: 0
-  _state: 
-  waypoints: []
-  currentWaypoint: 0
-  forceWaypointNavigation: 0
 --- !u!114 &1970010114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18606,6 +18587,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b08ece392650dab499aedec06b63314b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1970010115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970010104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7396b3f342e4c2d45b75535a09ffa5d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runningState: 0
+  warpIn: 0
+  invulnerableToArenaBoundary: 0
+  _GeneratesStats: 0
+  _structure: {fileID: 0}
+  _AITickRate: 0
+  _state: 
+  waypoints: []
+  currentWaypoint: 0
+  forceWaypointNavigation: 0
 --- !u!1001 &1992068348
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19812,7 +19815,7 @@ GameObject:
   - component: {fileID: 474589244169765566}
   - component: {fileID: 1053164799013068905}
   - component: {fileID: 505421015709834174}
-  - component: {fileID: 505421015709834173}
+  - component: {fileID: 505421015709834175}
   m_Layer: 11
   m_Name: USN Squad Frigate
   m_TagString: Ship
@@ -19820,28 +19823,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &505421015709834173
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 505421015709834172}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7c5439203c40474788ad084536b7e53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  runningState: 0
-  warpIn: 0
-  invulnerableToArenaBoundary: 0
-  _GeneratesStats: 0
-  _structure: {fileID: 0}
-  _AITickRate: 0
-  _state: 
-  waypoints: []
-  currentWaypoint: 0
-  forceWaypointNavigation: 0
 --- !u!114 &505421015709834174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19854,6 +19835,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b08ece392650dab499aedec06b63314b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &505421015709834175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 505421015709834172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7396b3f342e4c2d45b75535a09ffa5d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runningState: 0
+  warpIn: 0
+  invulnerableToArenaBoundary: 0
+  _GeneratesStats: 0
+  _structure: {fileID: 0}
+  _AITickRate: 0
+  _state: 
+  waypoints: []
+  currentWaypoint: 0
+  forceWaypointNavigation: 0
 --- !u!4 &508385314876363808
 Transform:
   m_ObjectHideFlags: 0

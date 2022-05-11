@@ -13,7 +13,8 @@ namespace NoxCore.Controllers
     [RequireComponent(typeof(BasicThreatEvaluator))]
     public class ImprovedCombatAI : BasicCombatAI
     {
-        BasicThreatEvaluator threatSys;
+        // We need this to be internal so we can access it in inherited classes
+        internal BasicThreatEvaluator threatSys;
 
         public override void boot(Structure structure, HelmController helm = null)
         {

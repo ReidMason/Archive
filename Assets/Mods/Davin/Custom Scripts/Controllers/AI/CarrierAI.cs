@@ -11,6 +11,7 @@ using NoxCore.Placeables.Ships;
 using NoxCore.Fittings.Sockets;
 
 using Davin.Fittings.Devices;
+using System.Linq;
 
 namespace NoxCore.Controllers
 {
@@ -20,6 +21,8 @@ namespace NoxCore.Controllers
         BasicThreatEvaluator threatSys;
 
         protected List<Structure> squad;
+
+        Station station;
 
         public override void boot(Structure structure, HelmController helm = null)
         {
@@ -38,63 +41,56 @@ namespace NoxCore.Controllers
             }
 
             threatSys = GetComponent<BasicThreatEvaluator>();
+            
+            station = FindObjectOfType<Station>();
 
             booted = true;
         }
 
         public override string combatAction()
-        { 
-            if (structure.scanner.isActiveOn() == true)
+        {
+            // Replace carrier AI with something similar to the customCombat AI
+            List<Structure> enemiesInRange = structure.scanner.getEnemiesInRange();
+            var nonStationEnemiesInRange = enemiesInRange.Where(x => x.GetInstanceID() != station.GetInstanceID()).ToList();
+            if (nonStationEnemiesInRange.Count > 0)
             {
-                List<Structure> enemiesInRange = structure.scanner.getEnemiesInRange();
+                List<(Structure structure, float threat)> threats = threatSys.calculateThreatRatios(structure, nonStationEnemiesInRange);
 
-                if (enemiesInRange.Count > 0)
+                var targetEnemy = threats[0].structure;
+                foreach (FireGroup fireGroup in structure.FireControl.FireGroups)
                 {
-                    // get sorted threat ratios for all enemy ships and structures in range
-                    List<(Structure structure, float threat)> threats = threatSys.calculateThreatRatios(structure, enemiesInRange);
-
-                    // tell all fire groups to acquire the first target's hull (hence null for 2nd parameter)
-                    foreach (FireGroup fireGroup in structure.FireControl.FireGroups)
-                    {
-                        fireGroup.setTarget(threats[0].structure);
-                    }
-
-                    if (orbitBehaviour != null)
-                    {
-                        if (orbitBehaviour.Active == false)
-                        {
-                            orbitBehaviour.enableExclusively();
-                        }
-                    }
-
-                    // use the first target as the ship/structure to orbit around
-                    orbitBehaviour.OrbitObject = threats[0].structure.transform;
-
-                    // use the first weapon's maximum range to determie a suitable orbit range
-                    if (structure.Weapons.Count > 0)
-                    {
-                        orbitBehaviour.OrbitRange = structure.Weapons[0].WeaponData.MaxRange - 1;
-                    }
-
-                    return "COMBAT";
+                    fireGroup.setTarget(targetEnemy);
                 }
+
+                Helm.destination = targetEnemy.gameObject.transform.position;
+
+                return "COMBAT";
+            }
+
+            List<Weapon> activeStationTurrets = station.Weapons.Where(x => !x.destroyed).OrderByDescending(x => x.getDPS()).ToList();
+
+            if (activeStationTurrets.Count > 0)
+            {
+                var targetWeapon = activeStationTurrets[0];
+
+                foreach (FireGroup fireGroup in structure.FireControl.FireGroups)
+                {
+                    fireGroup.setTarget(station, targetWeapon);
+                }
+
+                Helm.destination = targetWeapon.getPosition();
+
+                return "COMBAT";
             }
             else
             {
-                foreach (Weapon weap in structure.Weapons)
+                foreach (FireGroup fireGroup in structure.FireControl.FireGroups)
                 {
-                    TargetableWeapon tWeap = (TargetableWeapon)weap;
-
-                    if (tWeap != null)
-                    {
-                        tWeap.unacquireTarget();
-                    }
+                    fireGroup.unacquireTarget();
                 }
 
                 return "SEARCH";
             }
-
-            return "COMBAT";
         }
 
         protected void OnHasWarpedIn(object sender, WarpEventArgs args)

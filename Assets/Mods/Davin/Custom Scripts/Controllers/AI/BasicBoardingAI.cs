@@ -64,6 +64,8 @@ namespace NoxCore.Controllers
             arriveBehaviour = Helm.getBehaviourByName("ARRIVE") as ArriveBehaviour;
             seekBehaviour = Helm.getBehaviourByName("SEEK") as SeekBehaviour;
             orbitBehaviour = Helm.getBehaviourByName("ORBIT") as OrbitBehaviour;
+            // We need to slow down earlier so we don't overshoot the boarding target
+            arriveBehaviour.SlowingRadius = 500;
 
             if (orbitBehaviour != null)
             {
@@ -184,7 +186,13 @@ namespace NoxCore.Controllers
         {
             if (booted == true)
             {
-                processState();
+
+                // Do not allow the cuckoo to do anything until there are under 5 remaining guns on the station
+                var workingWeapons = boardingTarget.Weapons.Where(x => !x.destroyed).ToList();
+                if (workingWeapons.Count < 5)
+                {
+                    processState();
+                }
 
                 foreach (ShieldGenerator shieldGenerator in structure.shields)
                 {
@@ -451,7 +459,7 @@ namespace NoxCore.Controllers
                         //Debug.DrawLine(structure.transform.position, Helm.destination.GetValueOrDefault(), Color.blue, Time.deltaTime, true);
                     }
                 }
-
+                
                 if (dockingPort != null)
                 {
                     // have we reached the docking port?

@@ -29,6 +29,8 @@ namespace Davin.Controllers
         protected Structure boardingTarget;
         protected List<Weapon> boardingTargetWeapons;
 
+        Station station;
+
         public override void boot(Structure structure, HelmController helm = null)
         {
             base.boot(structure, helm);
@@ -81,6 +83,8 @@ namespace Davin.Controllers
             comms = structure.getDevice<IComms>() as IComms;
 
             boardingTargetWeapons = new List<Weapon>();
+
+            station = FindObjectOfType<Station>();
 
             booted = true;
         }
@@ -154,54 +158,20 @@ namespace Davin.Controllers
         {
             if (structure.scanner.isActiveOn() == true)
             {
-                // is the ship we are escorting still in scanner range? If not, run a search pattern to find it.
-                if (boardingShip != null && !structure.scanner.getFriendliesInRange().Contains(boardingShip))
+            // Replace carrier AI with something similar to the customCombat AI
+                List<Weapon> activeStationTurrets = station.Weapons.Where(x => !x.destroyed).OrderByDescending(x => x.getDPS()).ToList();
+
+                if (activeStationTurrets.Count > 0)
                 {
-                    Helm.destination = null;
-                    return "SEARCH";
-                }
-
-                List<Structure> enemiesInRange = structure.scanner.getEnemiesInRange();
-
-                if (enemiesInRange.Count > 0)
-                {
-                    // attack the station weaponry or enemy ships?
-                    if (boardingTarget != null && enemiesInRange.Contains(boardingTarget))
+                    var targetWeapon = activeStationTurrets.LastOrDefault();
+                    foreach (FireGroup fireGroup in structure.FireControl.FireGroups)
                     {
-                        boardingTargetWeapons = boardingTarget.Weapons;
-
-                        // very simple scheme that gets the first non-destroyed weapon on the boarding target in scanner range and sets all weapons to shoot at it
-                        Weapon targetWeapon = null;
-
-                        foreach (Weapon weapon in boardingTargetWeapons)
-                        {
-                            if (weapon.destroyed == false)
-                            {
-                                targetWeapon = weapon;
-                                break;
-                            }
-                        }
-
-                        if (targetWeapon != null)
-                        {
-                            // tell all fire groups to acquire the selected weapon
-                            foreach (FireGroup fireGroup in structure.FireControl.FireGroups)
-                            {
-                                fireGroup.setTarget(boardingTarget, targetWeapon);
-                            }
-                        }
+                        fireGroup.setTarget(station, targetWeapon);
                     }
-                    else
-                    {
-                        // get sorted threat ratios for all enemy ships and structures in range
-                        List<(Structure structure, float threat)> threats = threatSys.calculateThreatRatios(structure, enemiesInRange);
 
-                        // tell all fire groups to acquire the first target's hull (hence null for 2nd parameter)
-                        foreach (FireGroup fireGroup in structure.FireControl.FireGroups)
-                        {
-                            fireGroup.setTarget(threats[0].structure);
-                        }
-                    }
+                    Helm.destination = targetWeapon.getPosition();
+
+                    return "PROTECT";
                 }
                 else
                 {
@@ -209,19 +179,8 @@ namespace Davin.Controllers
                     {
                         fireGroup.unacquireTarget();
                     }
-                }
 
-                if (seekBehaviour != null && seekBehaviour.Active == false)
-                {
-                    seekBehaviour.enableExclusively();
-                }
-
-                Helm.destination = boardingShip.transform.position;
-
-                // draw a line to the destination
-                if (Helm.destination != null && Cam.followTarget != null && Cam.followTarget.gameObject == Helm.ShipStructure.gameObject)
-                {
-                    Debug.DrawLine(structure.transform.position, Helm.destination.GetValueOrDefault(), Color.blue, Time.deltaTime, true);
+                    return "SEARCH";
                 }
             }
 
