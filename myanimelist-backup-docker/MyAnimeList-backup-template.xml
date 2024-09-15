@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+    <Date>2019-12-16</Date>
+    <Beta>False</Beta>
+    <Name>MyAnimeList backup</Name>
+    <Overview>
+        Backs up your MyAnimeList.
+    </Overview>
+    <Description>
+        Backs up your MyAnimeList.
+    </Description>
+    <Registry>https://registry.hub.docker.com/u/skippythesnake/myanimelist-backup-docker</Registry>
+    <GitHub>https://github.com/SkippyTheSnake/myanimelist-backup-docker</GitHub>
+    <Repository>skippythesnake/myanimelist-backup-docker</Repository>
+    <Support>https://github.com/SkippyTheSnake/myanimelist-backup-docker</Support>
+    <BindTime>true</BindTime>
+    <Privileged>false</Privileged>
+    <Networking>
+        <Mode>host</Mode>
+        <Publish/>
+    </Networking>
+    <Environment>
+        <Variable>
+            <Name>USERNAMES</Name>
+            <Value>Username1 Username2</Value>
+        </Variable>
+        <Variable>
+            <Name>NUM_BACKUPS</Name>
+            <Value>5</Value>
+        </Variable>
+    </Environment>
+    <Data>
+        <Volume>
+            <HostDir>/mnt/user/appdata/myanimelist-backup/backups</HostDir>
+            <ContainerDir>/app/backups</ContainerDir>
+            <Mode>rw</Mode>
+        </Volume>
+    </Data>
+    <WebUI>https://myanimelist.net/</WebUI>
+    <Icon>
+        https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/6c/6c7419658ea598af00a30a46fac6a5a29fd640b3_full.jpg
+    </Icon>
+</Containers>
