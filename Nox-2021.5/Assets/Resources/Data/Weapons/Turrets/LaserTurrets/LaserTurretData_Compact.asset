@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c008e274a7dd3fd44a93479d249ec773, type: 3}
+  m_Name: LaserTurretData_Compact
+  m_EditorClassIdentifier: 
+  __debugKey: 0
+  __type: LASERTURRET
+  __subType: COMPACT
+  __techLevel: 1
+  __priority: 0
+  __cost: 50
+  __requiredPower: 30
+  __activeHeat: 7
+  __emField: 0
+  __activatingDelay: 3
+  __deactivatingDelay: 1
+  __activeOn: 1
+  __activeOnSpawn: 1
+  __aspectRadius: 1
+  __maxArmour: 125
+  __explosion: {fileID: 1000011437209572, guid: a7d1a66b45cd86c4f8d15db26667a279,
+    type: 3}
+  __damageOnDestroy: 0
+  __maxAmmo: -1
+  __effectPrefab: {fileID: 1000012748243058, guid: 780d313086c2181488e3ed4a083dd4e3,
+    type: 3}
+  __powerPerShot: 15
+  __heatPerShot: 2
+  __minRange: 25
+  __maxRange: 500
+  __baseDamage: 15
+  __fireRate: 0.5
+  __canReveal: 0
+  __slewSpeed: 5.5
+  __trackingAngle: 0.3
+  __transversalDamage: 0
+  __effectDuration: 0.5

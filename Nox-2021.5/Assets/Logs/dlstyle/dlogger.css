@@ -1,0 +1,284 @@
+pre {
+	 display:none;
+}
+
+a{
+	color:#ff0000;
+	background-color:#ffffff;
+	padding:3px;
+	font-size:small;
+	text-decoration: none;
+	width:10em;
+	font-weight:normal;
+	cursor: hand;
+	border-radius:4px;
+}
+
+h1 {
+padding-top: 3em;
+}
+
+body {
+font-family:"Tahoma";
+font-size: 12px;
+padding-top: 0;
+margin-top: 0;
+}
+
+p {
+font-family:"Calibri";
+font-size: 12px;
+padding:4px;
+border-radius:3px;
+margin:2px;
+display:block;
+background-color:#eeeeee;
+}
+
+img{
+float: none;
+}
+
+.Default {
+	background-color:#ffffff;
+}
+
+.Usage {
+	font-size: 16px;
+	background-color:#ffffff;
+}
+
+.Header{
+position:fixed;
+background:#ffffff;
+padding-bottom:1em;
+}
+
+.Padding{
+ height:20em;
+}
+
+.Icon{
+float: left;
+width:2em;
+background-color:transparent;
+}
+
+.Time {
+float: left;
+width:12em;
+background-color:transparent;
+}
+
+.Log {
+background-color:#eeeeee;
+}
+
+.Warning {
+background-color:#e48625;
+color:#ffffff;
+}
+
+.Error {
+background-color:#ff2a2a;
+color:#ffffff;
+}
+
+.Assert {
+background-color:#ffeecc;
+color:#e48625;
+}
+
+.Exception {
+background-color:#ffdddd;
+color:#dd0000;
+}
+
+.Log-Python {
+background-color:#eeeeee;
+font-style: italic;
+}
+
+.Warning-Python {
+background-color:#e48625;
+color:#ffffff;
+font-style: italic;
+}
+
+.Error-Python {
+background-color:#ff2a2a;
+color:#ffffff;
+font-style: italic;
+}
+
+.Assert-Python {
+background-color:#ffeecc;
+color:#e48625;
+font-style: italic;
+}
+
+.Exception-Python {
+background-color:#ffdddd;
+color:#dd0000;
+font-style: italic;
+}
+
+.Physics {
+background-color:#9999ff;]
+}
+
+.Audio {
+background-color:#ffee00;
+}
+
+.Graphics {
+background-color:#ff99ff;
+}
+
+.GUI {
+background-color:#cc99ff;
+color:9000ff;
+}
+
+.GUIMessage {
+background-color:#9000ff;
+color:#ffffff;
+}
+
+.Content {
+background-color:#ff66cc;
+}
+
+.GameLogic {
+background-color:#99ffff;
+}
+
+.AI {
+background-color:#99ccff;
+}
+
+.Helm {
+background-color:#cc99ff;
+}
+
+.Structure {
+background-color:#ccff99;
+}
+
+.Fitting {
+background-color:#cc99cc;
+}
+
+.Heat {
+background-color:#ff6666;
+}
+
+.Power {
+background-color:#0099ff;
+}
+
+.Device {
+background-color:#99aacc;
+}
+
+.Weapon {
+background-color:#ff99cc;
+}
+
+.Projectile {
+background-color:#cc99ff;
+}
+
+.Content-Python{
+background-color:#ff66cc;
+font-style: italic;
+}
+
+.GameLogic-Python {
+background-color:#99ffff;
+font-style: italic;
+}
+
+.AI-Python {
+background-color:#99ccff;
+font-style: italic;
+}
+
+.Helm-Python {
+background-color:#cc99ff;
+font-style: italic;
+}
+
+.Structure-Python {
+background-color:#ccff99;
+font-style: italic;
+}
+
+.Fitting-Python {
+background-color:#cc99cc;
+font-style: italic;
+}
+
+.Heat-Python {
+background-color:#ff6666;
+font-style: italic;
+}
+
+.Power-Python {
+background-color:#0099ff;
+font-style: italic;
+}
+
+.Device-Python {
+background-color:#99aacc;
+font-style: italic;
+}
+
+.Weapon-Python {
+background-color:#ff99cc;
+font-style: italic;
+}
+
+.Projectile-Python {
+background-color:#cc99ff;
+font-style: italic;
+}
+
+.System{
+background-color:#2a2aff;
+color:#ffffff;
+}
+
+.Replay {
+background-color:#ff9966;
+}
+
+.Terrain {
+background-color:#00aa33;
+}
+
+.Networking {
+background-color:#99ffcc;
+}
+
+.NetworkClient {
+background-color:#99ff66;
+}
+
+.NetworkServer {
+background-color:#99ffaa;
+}
+
+.Input {
+background-color:#ffcc00;
+}
+
+.Button {
+	display:inline;
+	width:10em;
+	border:none;
+	border-radius: 5px;
+	padding:4px;
+	margin:2px;
+	cursor: hand;
+}

@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000011114730652}
+  m_IsPrefabParent: 1
+--- !u!1 &1000011114730652
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000012128673900}
+  - 114: {fileID: 114000012891837928}
+  m_Layer: 0
+  m_Name: AdvancedRandomTaunter
+  m_TagString: Device
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000012128673900
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011114730652}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114000012891837928
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011114730652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb32f052fa8536846bf7de4e71e141cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Type: RANDOMTAUNTER
+  _SubType: ADVANCED
+  _TechLevel: 0
+  _Priority: 0
+  _Cost: 10
+  reroutedPower: 0
+  powerGeneration: 0
+  requiredPower: 12
+  activeHeat: 2
+  heatCapacity: 60
+  thermalLimit: 85
+  activeCoolRate: 1.5
+  passiveCoolRate: 0.5
+  EMField: 0
+  _CurrentHeat: 0
+  activatingDelay: 1.5
+  deactivatingDelay: 1.5
+  activatingTimer: 0
+  deactivatingTimer: 0
+  activeOn: 1
+  activeOnSpawn: 1
+  destroyed: 0
+  attackTaunts:
+  - Have at you!
+  - None shall pass
+  - I move, for no man
+  defenceTaunts:
+  - Tis but a scratch
+  - I'm invincible!
+  - It's just a flesh wound!
+  - "Right, I\u2019ll do you for that"
+  chanceToTaunt: 0.2

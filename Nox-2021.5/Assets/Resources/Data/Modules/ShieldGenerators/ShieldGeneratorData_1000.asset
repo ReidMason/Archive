@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4991cc5ada9fe20479d2af2b23ec32c7, type: 3}
+  m_Name: ShieldGeneratorData_1000
+  m_EditorClassIdentifier: 
+  __debugKey: 0
+  __type: SHIELDGENERATOR
+  __subType: 1000
+  __techLevel: 2
+  __priority: 0
+  __cost: 225
+  __requiredPower: 1000
+  __activeHeat: 30
+  __emField: 0
+  __activatingDelay: 5
+  __deactivatingDelay: 10
+  __activeOn: 1
+  __activeOnSpawn: 1
+  __aspectRadius: 2
+  __maxArmour: 400
+  __explosion: {fileID: 1000011437209572, guid: 691c68bc3be72b448921f45e144de6d7,
+    type: 3}
+  __damageOnDestroy: 0
+  __shieldDelay: 5
+  __weakFraction: 0.5
+  __bleedFraction: 0.2
+  __minCharge: 200
+  __maxCharge: 1000
+  __rechargeRate: 5

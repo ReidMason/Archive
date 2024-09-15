@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 992fcda9aef5a394a8dfafc4c9d1e8c9, type: 3}
+  m_Name: BlasterTurretData_Light
+  m_EditorClassIdentifier: 
+  __debugKey: 0
+  __type: BLASTERTURRET
+  __subType: LIGHT
+  __techLevel: 1
+  __priority: 0
+  __cost: 125
+  __requiredPower: 200
+  __activeHeat: 20
+  __emField: 0
+  __activatingDelay: 9
+  __deactivatingDelay: 4
+  __activeOn: 1
+  __activeOnSpawn: 1
+  __aspectRadius: 2
+  __maxArmour: 350
+  __explosion: {fileID: 1000011437209572, guid: a7d1a66b45cd86c4f8d15db26667a279,
+    type: 3}
+  __damageOnDestroy: 0
+  __maxAmmo: -1
+  __effectPrefab: {fileID: 1000010663234608, guid: 581601884a2bbea4db056bcec36cb70b,
+    type: 3}
+  __powerPerShot: 10
+  __heatPerShot: 1
+  __minRange: 30
+  __maxRange: 500
+  __baseDamage: 8
+  __fireRate: 0.2
+  __canReveal: 0
+  __slewSpeed: 6
+  __trackingAngle: 0.45
+  __transversalDamage: 0
+  __shieldDamageModifier: 0.5
+  __hullDamageModifier: 2

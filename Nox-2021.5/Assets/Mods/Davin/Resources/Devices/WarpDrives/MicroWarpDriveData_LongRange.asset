@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9217409902ab2644b8ea513cb102763, type: 3}
+  m_Name: MicroWarpDriveData_LongRange
+  m_EditorClassIdentifier: 
+  __debugKey: 0
+  __type: MICROWARPDRIVE
+  __subType: LONGRANGE
+  __techLevel: 3
+  __priority: 0
+  __cost: 350
+  __requiredPower: 300
+  __activeHeat: 3
+  __emField: 0
+  __activatingDelay: 3
+  __deactivatingDelay: 0
+  __activeOn: 0
+  __activeOnSpawn: 0
+  __maxWarpBubbleTime: 30
+  __warpSpeedPercentage: 2000
+  __alignAccuracy: 1.5
+  __cooldownDuration: 120

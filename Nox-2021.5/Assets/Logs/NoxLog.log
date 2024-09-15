@@ -1,0 +1,509 @@
+132524419086935969 LOG Logger Active...
+132524419087085955 LOG LOG Test
+132524419087095954 LOG WARN Test
+132524419087115951 LOG ERROR Test
+132524419089115905 LOG GameManager - Start
+132524419089135909 LOG Initialising all pre-placed structures...
+132524419089225897 LOG Initialising NoxObject2D
+132524419089255900 LOG Initialising structure Red Reaver
+132524419089275906 LOG Added AI controlled structure to game mode
+132524419089295910 LOG Controller attached to structure Red Reaver
+132524419089455894 LOG Collision mesh built from 48 tris
+132524419089505895 LOG Installing ThermalControl_Corvette into structure Red Reaver
+132524419089525897 LOG THERMALCONTROL:CORVETTE attached to structure Red Reaver
+132524419089535895 LOG Installing PowerGrid5000 into structure Red Reaver
+132524419089545894 LOG POWERGRID:5000 attached to structure Red Reaver
+132524419089555893 LOG Installing PowerCore3000 into structure Red Reaver
+132524419089565894 LOG POWERCORE:3000 attached to structure Red Reaver
+132524419089575894 LOG Installing Scanner500 into structure Red Reaver
+132524419089595892 LOG SCANNER:500 attached to structure Red Reaver
+132524419089605886 LOG Installing LimitedAfterburner into structure Red Reaver
+132524419089625892 LOG AFTERBURNER:LIMITED attached to structure Red Reaver
+132524419089655889 LOG Installing socket LeftEngine on Red Reaver at position: (-7.6000000, -23.2000000, 0.0000000)
+132524419089675892 LOG Installing module RaceEngine40 onto structure Red Reaver
+132524419089705889 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure Red Reaver
+132524419089725894 LOG Installing socket RightEngine on Red Reaver at position: (7.6000000, -23.2000000, 0.0000000)
+132524419089725894 LOG Installing module RaceEngine40 onto structure Red Reaver
+132524419089735889 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure Red Reaver
+132524419089775885 LOG Helm on Helm is ready
+132524419089875883 LOG Module: A renderer on module RaceEngine40 on structure Red Reaver is null
+132524419089885887 LOG Module: A renderer on module RaceEngine40 on structure Red Reaver is null
+132524419089925887 LOG Spawning Red Reaver
+132524419089935886 LOG Spawning Red Reaver
+132524419090055883 LOG Initialising NoxObject2D
+132524419090065882 LOG Initialising structure Junkrabbit
+132524419090075882 LOG Added AI controlled structure to game mode
+132524419090075882 LOG Controller attached to structure Junkrabbit
+132524419090205881 LOG Collision mesh built from 48 tris
+132524419090225875 LOG Installing ThermalControl_Corvette into structure Junkrabbit
+132524419090235879 LOG THERMALCONTROL:CORVETTE attached to structure Junkrabbit
+132524419090235879 LOG Installing PowerGrid5000 into structure Junkrabbit
+132524419090245871 LOG POWERGRID:5000 attached to structure Junkrabbit
+132524419090255875 LOG Installing PowerCore3000 into structure Junkrabbit
+132524419090265874 LOG POWERCORE:3000 attached to structure Junkrabbit
+132524419090275874 LOG Installing Scanner500 into structure Junkrabbit
+132524419090285873 LOG SCANNER:500 attached to structure Junkrabbit
+132524419090295886 LOG Installing LimitedAfterburner into structure Junkrabbit
+132524419090305879 LOG AFTERBURNER:LIMITED attached to structure Junkrabbit
+132524419090315872 LOG Installing socket LeftEngine on Junkrabbit at position: (-18.8700000, -23.2000000, 0.0000000)
+132524419090325875 LOG Installing module RaceEngine40 onto structure Junkrabbit
+132524419090335870 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure Junkrabbit
+132524419090345876 LOG Installing socket RightEngine on Junkrabbit at position: (19.0600000, -23.2000000, 0.0000000)
+132524419090345876 LOG Installing module RaceEngine40 onto structure Junkrabbit
+132524419090355870 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure Junkrabbit
+132524419090365871 LOG Helm on Helm is ready
+132524419090375870 LOG Module: A renderer on module RaceEngine40 on structure Junkrabbit is null
+132524419090385874 LOG Module: A renderer on module RaceEngine40 on structure Junkrabbit is null
+132524419090395876 LOG Spawning Junkrabbit
+132524419090405873 LOG Spawning Junkrabbit
+132524419090435867 LOG Initialising NoxObject2D
+132524419090445870 LOG Initialising structure KIKS RACER
+132524419090455878 LOG Added AI controlled structure to game mode
+132524419090465874 LOG Controller attached to structure KIKS RACER
+132524419090585863 LOG Collision mesh built from 48 tris
+132524419090605877 LOG Installing ThermalControl_Corvette into structure KIKS RACER
+132524419090615862 LOG THERMALCONTROL:CORVETTE attached to structure KIKS RACER
+132524419090635874 LOG Installing PowerGrid5000 into structure KIKS RACER
+132524419090635874 LOG POWERGRID:5000 attached to structure KIKS RACER
+132524419090645865 LOG Installing PowerCore3000 into structure KIKS RACER
+132524419090655863 LOG POWERCORE:3000 attached to structure KIKS RACER
+132524419090665871 LOG Installing Scanner500 into structure KIKS RACER
+132524419090675868 LOG SCANNER:500 attached to structure KIKS RACER
+132524419090685865 LOG Installing LimitedAfterburner into structure KIKS RACER
+132524419090685865 LOG AFTERBURNER:LIMITED attached to structure KIKS RACER
+132524419090695862 LOG Installing socket LeftEngine on KIKS RACER at position: (-288.8549000, -95.0000000, 0.0000000)
+132524419090705869 LOG Installing module RaceEngine40 onto structure KIKS RACER
+132524419090715868 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure KIKS RACER
+132524419090725858 LOG Installing socket RightEngine on KIKS RACER at position: (-273.6549000, -95.0000000, 0.0000000)
+132524419090735861 LOG Installing module RaceEngine40 onto structure KIKS RACER
+132524419090745865 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure KIKS RACER
+132524419090755863 LOG Helm on Helm is ready
+132524419090765865 LOG Module: A renderer on module RaceEngine40 on structure KIKS RACER is null
+132524419090765865 LOG Module: A renderer on module RaceEngine40 on structure KIKS RACER is null
+132524419090775864 LOG Spawning KIKS RACER
+132524419090785864 LOG Spawning KIKS RACER
+132524419090825861 LOG Initialising NoxObject2D
+132524419090835864 LOG Initialising structure Brum Brum Go Zoom
+132524419090845861 LOG Added AI controlled structure to game mode
+132524419090855857 LOG Controller attached to structure Brum Brum Go Zoom
+132524419090985855 LOG Collision mesh built from 48 tris
+132524419091005852 LOG Installing ThermalControl_Corvette into structure Brum Brum Go Zoom
+132524419091015855 LOG THERMALCONTROL:CORVETTE attached to structure Brum Brum Go Zoom
+132524419091025853 LOG Installing PowerGrid5000 into structure Brum Brum Go Zoom
+132524419091035855 LOG POWERGRID:5000 attached to structure Brum Brum Go Zoom
+132524419091045850 LOG Installing PowerCore3000 into structure Brum Brum Go Zoom
+132524419091055858 LOG POWERCORE:3000 attached to structure Brum Brum Go Zoom
+132524419091055858 LOG Installing Scanner500 into structure Brum Brum Go Zoom
+132524419091065858 LOG SCANNER:500 attached to structure Brum Brum Go Zoom
+132524419091075858 LOG Installing LimitedAfterburner into structure Brum Brum Go Zoom
+132524419091085858 LOG AFTERBURNER:LIMITED attached to structure Brum Brum Go Zoom
+132524419091095853 LOG Installing socket LeftEngine on Brum Brum Go Zoom at position: (43.8000000, -56.3000000, 0.0000000)
+132524419091105854 LOG Installing module RaceEngine40 onto structure Brum Brum Go Zoom
+132524419091115853 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure Brum Brum Go Zoom
+132524419091125865 LOG Installing socket RightEngine on Brum Brum Go Zoom at position: (53.0000000, -56.3000000, 0.0000000)
+132524419091135853 LOG Installing module RaceEngine40 onto structure Brum Brum Go Zoom
+132524419091145852 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure Brum Brum Go Zoom
+132524419091155856 LOG Helm on Helm is ready
+132524419091165853 LOG Module: A renderer on module RaceEngine40 on structure Brum Brum Go Zoom is null
+132524419091175849 LOG Module: A renderer on module RaceEngine40 on structure Brum Brum Go Zoom is null
+132524419091175849 LOG Spawning Brum Brum Go Zoom
+132524419091185853 LOG Spawning Brum Brum Go Zoom
+132524419091225854 LOG Initialising NoxObject2D
+132524419091235853 LOG Initialising structure Capitol Racing Corvette
+132524419091235853 LOG Added AI controlled structure to game mode
+132524419091245846 LOG Controller attached to structure Capitol Racing Corvette
+132524419091295856 LOG Collision mesh built from 48 tris
+132524419091315850 LOG Installing ThermalControl_Corvette into structure Capitol Racing Corvette
+132524419091325845 LOG THERMALCONTROL:CORVETTE attached to structure Capitol Racing Corvette
+132524419091335843 LOG Installing PowerGrid5000 into structure Capitol Racing Corvette
+132524419091345851 LOG POWERGRID:5000 attached to structure Capitol Racing Corvette
+132524419091355845 LOG Installing PowerCore3000 into structure Capitol Racing Corvette
+132524419091365852 LOG POWERCORE:3000 attached to structure Capitol Racing Corvette
+132524419091365852 LOG Installing Scanner500 into structure Capitol Racing Corvette
+132524419091465857 LOG SCANNER:500 attached to structure Capitol Racing Corvette
+132524419091475844 LOG Installing socket LeftEngine on Capitol Racing Corvette at position: (179.3200000, -80.2933900, 0.0000000)
+132524419091485846 LOG Installing module RaceEngine40 onto structure Capitol Racing Corvette
+132524419091495839 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure Capitol Racing Corvette
+132524419091495839 LOG Installing socket RightEngine on Capitol Racing Corvette at position: (194.5201000, -80.2933900, 0.0000000)
+132524419091505844 LOG Installing module RaceEngine40 onto structure Capitol Racing Corvette
+132524419091515852 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure Capitol Racing Corvette
+132524419091525853 LOG Helm on Helm is ready
+132524419091535853 LOG Module: A renderer on module RaceEngine40 on structure Capitol Racing Corvette is null
+132524419091545845 LOG Module: A renderer on module RaceEngine40 on structure Capitol Racing Corvette is null
+132524419091555849 LOG Spawning Capitol Racing Corvette
+132524419091565839 LOG Spawning Capitol Racing Corvette
+132524419091605844 LOG Initialising NoxObject2D
+132524419091635849 LOG Initialising structure Sunday Driver
+132524419091645844 LOG Added AI controlled structure to game mode
+132524419091655838 LOG Controller attached to structure Sunday Driver
+132524419091695841 LOG Collision mesh built from 48 tris
+132524419091715835 LOG Installing ThermalControl_Corvette into structure Sunday Driver
+132524419091725844 LOG THERMALCONTROL:CORVETTE attached to structure Sunday Driver
+132524419091725844 LOG Installing PowerGrid5000 into structure Sunday Driver
+132524419091735835 LOG POWERGRID:5000 attached to structure Sunday Driver
+132524419091745838 LOG Installing PowerCore3000 into structure Sunday Driver
+132524419091755834 LOG POWERCORE:3000 attached to structure Sunday Driver
+132524419091765833 LOG Installing Scanner500 into structure Sunday Driver
+132524419091775837 LOG SCANNER:500 attached to structure Sunday Driver
+132524419091775837 LOG Installing LimitedAfterburner into structure Sunday Driver
+132524419091785839 LOG AFTERBURNER:LIMITED attached to structure Sunday Driver
+132524419091805837 LOG Installing socket LeftEngine on Sunday Driver at position: (-7.6000000, -23.2000000, 0.0000000)
+132524419091815834 LOG Installing module RaceEngine40 onto structure Sunday Driver
+132524419091825833 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure Sunday Driver
+132524419091825833 LOG Installing socket RightEngine on Sunday Driver at position: (7.6000000, -23.2000000, 0.0000000)
+132524419091835834 LOG Installing module RaceEngine40 onto structure Sunday Driver
+132524419091845841 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure Sunday Driver
+132524419091855837 LOG Helm on Helm is ready
+132524419091865835 LOG Module: A renderer on module RaceEngine40 on structure Sunday Driver is null
+132524419091875830 LOG Module: A renderer on module RaceEngine40 on structure Sunday Driver is null
+132524419091875830 LOG Spawning Sunday Driver
+132524419091885830 LOG Spawning Sunday Driver
+132524419091925836 LOG Initialising NoxObject2D
+132524419091925836 LOG Initialising structure BINDI02
+132524419091935837 LOG Added AI controlled structure to game mode
+132524419091945836 LOG Controller attached to structure BINDI02
+132524419092075831 LOG Collision mesh built from 48 tris
+132524419092095825 LOG Installing ThermalControl_Corvette into structure BINDI02
+132524419092095825 LOG THERMALCONTROL:CORVETTE attached to structure BINDI02
+132524419092105831 LOG Installing LimitedAfterburner into structure BINDI02
+132524419092115827 LOG AFTERBURNER:LIMITED attached to structure BINDI02
+132524419092125843 LOG Installing PowerGrid5000 into structure BINDI02
+132524419092135832 LOG POWERGRID:5000 attached to structure BINDI02
+132524419092145832 LOG Installing PowerCore3000 into structure BINDI02
+132524419092155824 LOG POWERCORE:3000 attached to structure BINDI02
+132524419092155824 LOG Installing Scanner500 into structure BINDI02
+132524419092165823 LOG SCANNER:500 attached to structure BINDI02
+132524419092175826 LOG Installing socket LeftEngine on BINDI02 at position: (-123.6000000, -39.2000000, 0.0000000)
+132524419092185829 LOG Installing module RaceEngine40 onto structure BINDI02
+132524419092195828 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure BINDI02
+132524419092205828 LOG Installing socket RightEngine on BINDI02 at position: (-108.4000000, -39.2000000, 0.0000000)
+132524419092215826 LOG Installing module RaceEngine40 onto structure BINDI02
+132524419092225827 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure BINDI02
+132524419092225827 LOG Helm on Helm is ready
+132524419092235824 LOG Module: A renderer on module RaceEngine40 on structure BINDI02 is null
+132524419092245828 LOG Module: A renderer on module RaceEngine40 on structure BINDI02 is null
+132524419092255824 LOG Spawning BINDI02
+132524419092265824 LOG Spawning BINDI02
+132524419092355821 LOG Initialising NoxObject2D
+132524419092365824 LOG Initialising structure "My Parents Aren't Home"
+132524419092365824 LOG Added AI controlled structure to game mode
+132524419092375821 LOG Controller attached to structure "My Parents Aren't Home"
+132524419092505822 LOG Collision mesh built from 48 tris
+132524419092525817 LOG Installing ThermalControl_Corvette into structure "My Parents Aren't Home"
+132524419092535821 LOG THERMALCONTROL:CORVETTE attached to structure "My Parents Aren't Home"
+132524419092545824 LOG Installing PowerGrid5000 into structure "My Parents Aren't Home"
+132524419092555817 LOG POWERGRID:5000 attached to structure "My Parents Aren't Home"
+132524419092565823 LOG Installing PowerCore3000 into structure "My Parents Aren't Home"
+132524419092575819 LOG POWERCORE:3000 attached to structure "My Parents Aren't Home"
+132524419092575819 LOG Installing Scanner500 into structure "My Parents Aren't Home"
+132524419092585820 LOG SCANNER:500 attached to structure "My Parents Aren't Home"
+132524419092595813 LOG Installing LimitedAfterburner into structure "My Parents Aren't Home"
+132524419092615819 LOG AFTERBURNER:LIMITED attached to structure "My Parents Aren't Home"
+132524419092635823 LOG Installing socket LeftEngine on "My Parents Aren't Home" at position: (-7.6000000, -23.2000000, 0.0000000)
+132524419092645813 LOG Installing module RaceEngine40 onto structure "My Parents Aren't Home"
+132524419092655815 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure "My Parents Aren't Home"
+132524419092665817 LOG Installing socket RightEngine on "My Parents Aren't Home" at position: (7.6000000, -23.2000000, 0.0000000)
+132524419092675818 LOG Installing module RaceEngine40 onto structure "My Parents Aren't Home"
+132524419092685818 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure "My Parents Aren't Home"
+132524419092695817 LOG Helm on Helm is ready
+132524419092705817 LOG Module: A renderer on module RaceEngine40 on structure "My Parents Aren't Home" is null
+132524419092715819 LOG Module: A renderer on module RaceEngine40 on structure "My Parents Aren't Home" is null
+132524419092725819 LOG Spawning "My Parents Aren't Home"
+132524419092735824 LOG Spawning "My Parents Aren't Home"
+132524419092765813 LOG Initialising NoxObject2D
+132524419092775811 LOG Initialising structure BetterPleaseWork
+132524419092785810 LOG Added AI controlled structure to game mode
+132524419092795826 LOG Controller attached to structure BetterPleaseWork
+132524419092915810 LOG Collision mesh built from 48 tris
+132524419092935810 LOG Installing ThermalControl_Corvette into structure BetterPleaseWork
+132524419092945804 LOG THERMALCONTROL:CORVETTE attached to structure BetterPleaseWork
+132524419092955807 LOG Installing PowerGrid5000 into structure BetterPleaseWork
+132524419092965818 LOG POWERGRID:5000 attached to structure BetterPleaseWork
+132524419092975807 LOG Installing PowerCore3000 into structure BetterPleaseWork
+132524419092985808 LOG POWERCORE:3000 attached to structure BetterPleaseWork
+132524419092995806 LOG Installing Scanner750 into structure BetterPleaseWork
+132524419093005806 LOG SCANNER:750 attached to structure BetterPleaseWork
+132524419093015805 LOG Installing LimitedAfterburner into structure BetterPleaseWork
+132524419093025812 LOG AFTERBURNER:LIMITED attached to structure BetterPleaseWork
+132524419093025812 LOG Installing socket ShieldPod on BetterPleaseWork at position: (0.0000000, 0.0000000, 0.0000000)
+132524419093035808 LOG Installing socket LeftEngineBay on BetterPleaseWork at position: (-6.9000000, -24.4000000, 0.0000000)
+132524419093045809 LOG Installing module RaceEngine40 onto structure BetterPleaseWork
+132524419093055806 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure BetterPleaseWork
+132524419093065803 LOG Installing socket RightEngineBay on BetterPleaseWork at position: (6.9000000, -24.4000000, 0.0000000)
+132524419093075810 LOG Installing module RaceEngine40 onto structure BetterPleaseWork
+132524419093085812 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure BetterPleaseWork
+132524419093095805 LOG Installing socket ForwardWeapon on BetterPleaseWork at position: (0.0000000, 15.4000000, 0.0000000)
+132524419093105811 LOG Installing socket LeftWeapon on BetterPleaseWork at position: (-9.5500000, -14.3300000, 0.0000000)
+132524419093115807 LOG Installing socket RightWeapon on BetterPleaseWork at position: (9.5500000, -14.3300000, 0.0000000)
+132524419093125816 LOG Helm on Helm is ready
+132524419093135808 LOG Module: A renderer on module RaceEngine40 on structure BetterPleaseWork is null
+132524419093135808 LOG Module: A renderer on module RaceEngine40 on structure BetterPleaseWork is null
+132524419093145803 LOG Spawning BetterPleaseWork
+132524419093155803 LOG Spawning BetterPleaseWork
+132524419093185801 LOG Initialising NoxObject2D
+132524419093195809 LOG Initialising structure Smooving Racer 2
+132524419093205805 LOG Added AI controlled structure to game mode
+132524419093205805 LOG Controller attached to structure Smooving Racer 2
+132524419093245801 LOG Collision mesh built from 48 tris
+132524419093265802 LOG Installing ThermalControl_Corvette into structure Smooving Racer 2
+132524419093275801 LOG THERMALCONTROL:CORVETTE attached to structure Smooving Racer 2
+132524419093295807 LOG Installing PowerGrid5000 into structure Smooving Racer 2
+132524419093305804 LOG POWERGRID:5000 attached to structure Smooving Racer 2
+132524419093315798 LOG Installing PowerCore3000 into structure Smooving Racer 2
+132524419093325804 LOG POWERCORE:3000 attached to structure Smooving Racer 2
+132524419093335819 LOG Installing Scanner500 into structure Smooving Racer 2
+132524419093345802 LOG SCANNER:500 attached to structure Smooving Racer 2
+132524419093355799 LOG Installing LimitedAfterburner into structure Smooving Racer 2
+132524419093365803 LOG AFTERBURNER:LIMITED attached to structure Smooving Racer 2
+132524419093375800 LOG Installing socket LeftEngine on Smooving Racer 2 at position: (-32.1386600, -106.9422000, 0.0000000)
+132524419093375800 LOG Installing module RaceEngine40 onto structure Smooving Racer 2
+132524419093385799 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure Smooving Racer 2
+132524419093395799 LOG Installing socket RightEngine on Smooving Racer 2 at position: (-16.9386600, -106.9422000, 0.0000000)
+132524419093405801 LOG Installing module RaceEngine40 onto structure Smooving Racer 2
+132524419093415801 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure Smooving Racer 2
+132524419093425798 LOG Helm on Helm is ready
+132524419093435800 LOG Module: A renderer on module RaceEngine40 on structure Smooving Racer 2 is null
+132524419093435800 LOG Module: A renderer on module RaceEngine40 on structure Smooving Racer 2 is null
+132524419093445796 LOG Spawning Smooving Racer 2
+132524419093455805 LOG Spawning Smooving Racer 2
+132524419093575794 LOG Initialising NoxObject2D
+132524419093585793 LOG Initialising structure Neptunian Racer
+132524419093595796 LOG Added AI controlled structure to game mode
+132524419093605793 LOG Controller attached to structure Neptunian Racer
+132524419093665789 LOG Collision mesh built from 48 tris
+132524419093685794 LOG Installing ThermalControl_Corvette into structure Neptunian Racer
+132524419093695793 LOG THERMALCONTROL:CORVETTE attached to structure Neptunian Racer
+132524419093705798 LOG Installing PowerGrid5000 into structure Neptunian Racer
+132524419093705798 LOG POWERGRID:5000 attached to structure Neptunian Racer
+132524419093715794 LOG Installing PowerCore3000 into structure Neptunian Racer
+132524419093725791 LOG POWERCORE:3000 attached to structure Neptunian Racer
+132524419093735788 LOG Installing Scanner500 into structure Neptunian Racer
+132524419093745790 LOG SCANNER:500 attached to structure Neptunian Racer
+132524419093745790 LOG Installing LimitedAfterburner into structure Neptunian Racer
+132524419093755791 LOG AFTERBURNER:LIMITED attached to structure Neptunian Racer
+132524419093765793 LOG Installing socket LeftEngine on Neptunian Racer at position: (98.7800800, -4.3799400, 0.0000000)
+132524419093775787 LOG Installing module RaceEngine40 onto structure Neptunian Racer
+132524419093785787 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure Neptunian Racer
+132524419093795799 LOG Installing socket RightEngine on Neptunian Racer at position: (113.9801000, -4.3799400, 0.0000000)
+132524419093805790 LOG Installing module RaceEngine40 onto structure Neptunian Racer
+132524419093815792 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure Neptunian Racer
+132524419093825787 LOG Helm on Helm is ready
+132524419093835785 LOG Module: A renderer on module RaceEngine40 on structure Neptunian Racer is null
+132524419093835785 LOG Module: A renderer on module RaceEngine40 on structure Neptunian Racer is null
+132524419093845783 LOG Spawning Neptunian Racer
+132524419093855784 LOG Spawning Neptunian Racer
+132524419093885794 LOG Initialising NoxObject2D
+132524419093895783 LOG Initialising structure USF Offical Racing Corvette
+132524419093905783 LOG Added AI controlled structure to game mode
+132524419093915789 LOG Controller attached to structure USF Offical Racing Corvette
+132524419094045785 LOG Collision mesh built from 48 tris
+132524419094065786 LOG Installing ThermalControl_Corvette into structure USF Offical Racing Corve
+132524419094075782 LOG THERMALCONTROL:CORVETTE attached to structure USF Offical Racing Corve
+132524419094085781 LOG Installing PowerGrid5000 into structure USF Offical Racing Corve
+132524419094085781 LOG POWERGRID:5000 attached to structure USF Offical Racing Corve
+132524419094095782 LOG Installing PowerCore3000 into structure USF Offical Racing Corve
+132524419094105781 LOG POWERCORE:3000 attached to structure USF Offical Racing Corve
+132524419094115777 LOG Installing Scanner500 into structure USF Offical Racing Corve
+132524419094125795 LOG SCANNER:500 attached to structure USF Offical Racing Corve
+132524419094135790 LOG Installing LimitedAfterburner into structure USF Offical Racing Corve
+132524419094145782 LOG AFTERBURNER:LIMITED attached to structure USF Offical Racing Corve
+132524419094155780 LOG Installing socket LeftEngine on USF Offical Racing Corve at position: (-7.9800960, -148.8772000, 0.0000000)
+132524419094165777 LOG Installing module RaceEngine40 onto structure USF Offical Racing Corve
+132524419094165777 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure USF Offical Racing Corve
+132524419094175779 LOG Installing socket RightEngine on USF Offical Racing Corve at position: (7.2199030, -148.8772000, 0.0000000)
+132524419094185781 LOG Installing module RaceEngine40 onto structure USF Offical Racing Corve
+132524419094195779 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure USF Offical Racing Corve
+132524419094205777 LOG Helm on Helm is ready
+132524419094215775 LOG Module: A renderer on module RaceEngine40 on structure USF Offical Racing Corvette is null
+132524419094215775 LOG Module: A renderer on module RaceEngine40 on structure USF Offical Racing Corvette is null
+132524419094225775 LOG Spawning USF Offical Racing Corve
+132524419094235775 LOG Spawning USF Offical Racing Corve
+132524419094265781 LOG Initialising NoxObject2D
+132524419094275783 LOG Initialising structure 10011001
+132524419094295785 LOG Added AI controlled structure to game mode
+132524419094305780 LOG Controller attached to structure 10011001
+132524419094425775 LOG Collision mesh built from 48 tris
+132524419094445775 LOG Installing ThermalControl_Corvette into structure 10011001
+132524419094465778 LOG THERMALCONTROL:CORVETTE attached to structure 10011001
+132524419094465778 LOG Installing PowerGrid5000 into structure 10011001
+132524419094475772 LOG POWERGRID:5000 attached to structure 10011001
+132524419094485772 LOG Installing PowerCore3000 into structure 10011001
+132524419094495772 LOG POWERCORE:3000 attached to structure 10011001
+132524419094505772 LOG Installing Scanner500 into structure 10011001
+132524419094505772 LOG SCANNER:500 attached to structure 10011001
+132524419094515771 LOG Installing LimitedAfterburner into structure 10011001
+132524419094525769 LOG AFTERBURNER:LIMITED attached to structure 10011001
+132524419094535772 LOG Installing socket LeftEngine on 10011001 at position: (-161.2571000, -68.2101300, 0.0000000)
+132524419094545774 LOG Installing module RaceEngine40 onto structure 10011001
+132524419094555771 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure 10011001
+132524419094555771 LOG Installing socket RightEngine on 10011001 at position: (-130.2571000, -68.2101300, 0.0000000)
+132524419094565771 LOG Installing module RaceEngine40 onto structure 10011001
+132524419094575771 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure 10011001
+132524419094585769 LOG Helm on Helm is ready
+132524419094595776 LOG Module: A renderer on module RaceEngine40 on structure 10011001 is null
+132524419094605771 LOG Module: A renderer on module RaceEngine40 on structure 10011001 is null
+132524419094615770 LOG Spawning 10011001
+132524419094625770 LOG Spawning 10011001
+132524419094675765 LOG Initialising NoxObject2D
+132524419094685767 LOG Initialising structure Barbarian Drifter
+132524419094695764 LOG Added AI controlled structure to game mode
+132524419094705768 LOG Controller attached to structure Barbarian Drifter
+132524419094745770 LOG Collision mesh built from 48 tris
+132524419094765763 LOG Installing ThermalControl_Corvette into structure Barbarian Drifter
+132524419094775762 LOG THERMALCONTROL:CORVETTE attached to structure Barbarian Drifter
+132524419094785762 LOG Installing PowerGrid5000 into structure Barbarian Drifter
+132524419094805769 LOG POWERGRID:5000 attached to structure Barbarian Drifter
+132524419094805769 LOG Installing PowerCore3000 into structure Barbarian Drifter
+132524419094815757 LOG POWERCORE:3000 attached to structure Barbarian Drifter
+132524419094825759 LOG Installing Scanner500 into structure Barbarian Drifter
+132524419094835766 LOG SCANNER:500 attached to structure Barbarian Drifter
+132524419094845762 LOG Installing LimitedAfterburner into structure Barbarian Drifter
+132524419094845762 LOG AFTERBURNER:LIMITED attached to structure Barbarian Drifter
+132524419094945763 LOG Installing socket LeftEngine on Barbarian Drifter at position: (-7.6000000, -23.2000000, 0.0000000)
+132524419094965767 LOG Installing module RaceEngine40 onto structure Barbarian Drifter
+132524419094975762 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure Barbarian Drifter
+132524419094985759 LOG Installing socket RightEngine on Barbarian Drifter at position: (7.6000000, -23.2000000, 0.0000000)
+132524419094995761 LOG Installing module RaceEngine40 onto structure Barbarian Drifter
+132524419095005761 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure Barbarian Drifter
+132524419095015760 LOG Helm on Helm is ready
+132524419095025755 LOG Module: A renderer on module RaceEngine40 on structure Barbarian Drifter is null
+132524419095025755 LOG Module: A renderer on module RaceEngine40 on structure Barbarian Drifter is null
+132524419095035762 LOG Spawning Barbarian Drifter
+132524419095045760 LOG Spawning Barbarian Drifter
+132524419095085758 LOG Initialising NoxObject2D
+132524419095085758 LOG Initialising structure Virtuoso Racer
+132524419095095756 LOG Added AI controlled structure to game mode
+132524419095105760 LOG Controller attached to structure Virtuoso Racer
+132524419095145756 LOG Collision mesh built from 48 tris
+132524419095165758 LOG Installing ThermalControl_Corvette into structure Virtuoso Racer
+132524419095175751 LOG THERMALCONTROL:CORVETTE attached to structure Virtuoso Racer
+132524419095185754 LOG Installing PowerGrid5000 into structure Virtuoso Racer
+132524419095195750 LOG POWERGRID:5000 attached to structure Virtuoso Racer
+132524419095205758 LOG Installing PowerCore3000 into structure Virtuoso Racer
+132524419095205758 LOG POWERCORE:3000 attached to structure Virtuoso Racer
+132524419095215755 LOG Installing Scanner500 into structure Virtuoso Racer
+132524419095225754 LOG SCANNER:500 attached to structure Virtuoso Racer
+132524419095235750 LOG Installing LimitedAfterburner into structure Virtuoso Racer
+132524419095245752 LOG AFTERBURNER:LIMITED attached to structure Virtuoso Racer
+132524419095245752 LOG Installing socket LeftEngine on Virtuoso Racer at position: (-1877.8800000, 324.6963000, 0.0000000)
+132524419095255753 LOG Installing module RaceEngine40 onto structure Virtuoso Racer
+132524419095265750 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure Virtuoso Racer
+132524419095275753 LOG Installing socket RightEngine on Virtuoso Racer at position: (-1862.6800000, 324.6963000, 0.0000000)
+132524419095295757 LOG Installing module RaceEngine40 onto structure Virtuoso Racer
+132524419095305755 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure Virtuoso Racer
+132524419095315750 LOG Helm on Helm is ready
+132524419095325754 LOG Module: A renderer on module RaceEngine40 on structure Virtuoso Racer is null
+132524419095325754 LOG Module: A renderer on module RaceEngine40 on structure Virtuoso Racer is null
+132524419095335754 LOG Spawning Virtuoso Racer
+132524419095345752 LOG Spawning Virtuoso Racer
+132524419095385748 LOG Initialising NoxObject2D
+132524419095395755 LOG Initialising structure GSA Mustang
+132524419095405750 LOG Added AI controlled structure to game mode
+132524419095415746 LOG Controller attached to structure GSA Mustang
+132524419095535747 LOG Collision mesh built from 48 tris
+132524419095555747 LOG Installing ThermalControl_Corvette into structure GSA Mustang
+132524419095565747 LOG THERMALCONTROL:CORVETTE attached to structure GSA Mustang
+132524419095575743 LOG Installing PowerGrid5000 into structure GSA Mustang
+132524419095575743 LOG POWERGRID:5000 attached to structure GSA Mustang
+132524419095585741 LOG Installing PowerCore3000 into structure GSA Mustang
+132524419095595745 LOG POWERCORE:3000 attached to structure GSA Mustang
+132524419095605746 LOG Installing Scanner500 into structure GSA Mustang
+132524419095615748 LOG SCANNER:500 attached to structure GSA Mustang
+132524419095635746 LOG Installing LimitedAfterburner into structure GSA Mustang
+132524419095645738 LOG AFTERBURNER:LIMITED attached to structure GSA Mustang
+132524419095655745 LOG Installing socket LeftEngine on GSA Mustang at position: (0.0000000, -9.4900000, 0.0000000)
+132524419095665749 LOG Installing module RaceEngine40 onto structure GSA Mustang
+132524419095675737 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure GSA Mustang
+132524419095685745 LOG Installing socket RightEngine on GSA Mustang at position: (0.0000000, -9.1000000, 0.0000000)
+132524419095695749 LOG Installing module RaceEngine40 onto structure GSA Mustang
+132524419095705744 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure GSA Mustang
+132524419095715746 LOG Helm on Helm is ready
+132524419095725743 LOG Module: A renderer on module RaceEngine40 on structure GSA Mustang is null
+132524419095735741 LOG Module: A renderer on module RaceEngine40 on structure GSA Mustang is null
+132524419095735741 LOG Spawning GSA Mustang
+132524419095745745 LOG Spawning GSA Mustang
+132524419095775744 LOG Initialising NoxObject2D
+132524419095785741 LOG Initialising structure HDF Racer 10 [c]
+132524419095805741 LOG Added AI controlled structure to game mode
+132524419095815739 LOG Controller attached to structure HDF Racer 10 [c]
+132524419095935736 LOG Collision mesh built from 48 tris
+132524419095965742 LOG Installing ThermalControl into structure HDF Racer 10 [c]
+132524419095975737 LOG THERMALCONTROL:CORVETTE attached to structure HDF Racer 10 [c]
+132524419095985732 LOG Installing PowerGrid5000 into structure HDF Racer 10 [c]
+132524419095995731 LOG POWERGRID:5000 attached to structure HDF Racer 10 [c]
+132524419096005736 LOG Installing PowerCore3000 into structure HDF Racer 10 [c]
+132524419096015731 LOG POWERCORE:3000 attached to structure HDF Racer 10 [c]
+132524419096025732 LOG Installing Scanner500 into structure HDF Racer 10 [c]
+132524419096025732 LOG SCANNER:500 attached to structure HDF Racer 10 [c]
+132524419096035728 LOG Installing LimitedAfterburner into structure HDF Racer 10 [c]
+132524419096045728 LOG AFTERBURNER:LIMITED attached to structure HDF Racer 10 [c]
+132524419096055739 LOG Installing socket LeftEngine on HDF Racer 10 [c] at position: (-23.5000000, -7.3000000, 0.0000000)
+132524419096065733 LOG Installing module RaceEngine40 onto structure HDF Racer 10 [c]
+132524419096075729 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure HDF Racer 10 [c]
+132524419096075729 LOG Installing socket RightEngine on HDF Racer 10 [c] at position: (23.9000000, -7.3000000, 0.0000000)
+132524419096085735 LOG Installing module RaceEngine40 onto structure HDF Racer 10 [c]
+132524419096095729 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure HDF Racer 10 [c]
+132524419096105734 LOG Helm on Helm is ready
+132524419096115729 LOG Module: A renderer on module RaceEngine40 on structure HDF Racer 10 [c] is null
+132524419096125753 LOG Module: A renderer on module RaceEngine40 on structure HDF Racer 10 [c] is null
+132524419096135740 LOG Spawning HDF Racer 10 [c]
+132524419096145731 LOG Spawning HDF Racer 10 [c]
+132524419096175734 LOG Initialising NoxObject2D
+132524419096185735 LOG Initialising structure Josh Racer 2.0
+132524419096195728 LOG Added AI controlled structure to game mode
+132524419096195728 LOG Controller attached to structure Josh Racer 2.0
+132524419096235730 LOG Collision mesh built from 48 tris
+132524419096255729 LOG Installing ThermalControl_Corvette into structure Josh Racer 2.0
+132524419096265725 LOG THERMALCONTROL:CORVETTE attached to structure Josh Racer 2.0
+132524419096275730 LOG Installing PowerGrid5000 into structure Josh Racer 2.0
+132524419096375722 LOG POWERGRID:5000 attached to structure Josh Racer 2.0
+132524419096385725 LOG Installing PowerCore3000 into structure Josh Racer 2.0
+132524419096395726 LOG POWERCORE:3000 attached to structure Josh Racer 2.0
+132524419096395726 LOG Installing Scanner500 into structure Josh Racer 2.0
+132524419096405721 LOG SCANNER:500 attached to structure Josh Racer 2.0
+132524419096415725 LOG Installing LimitedAfterburner into structure Josh Racer 2.0
+132524419096425738 LOG AFTERBURNER:LIMITED attached to structure Josh Racer 2.0
+132524419096435745 LOG Installing socket LeftEngine on Josh Racer 2.0 at position: (190.0487000, 204.1883000, 0.0000000)
+132524419096445750 LOG Installing module RaceEngine40 onto structure Josh Racer 2.0
+132524419096455745 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure Josh Racer 2.0
+132524419096465731 LOG Installing socket RightEngine on Josh Racer 2.0 at position: (205.2487000, 204.1883000, 0.0000000)
+132524419096475726 LOG Installing module RaceEngine40 onto structure Josh Racer 2.0
+132524419096485727 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure Josh Racer 2.0
+132524419096495722 LOG Helm on Helm is ready
+132524419096505727 LOG Module: A renderer on module RaceEngine40 on structure Josh Racer 2.0 is null
+132524419096515727 LOG Module: A renderer on module RaceEngine40 on structure Josh Racer 2.0 is null
+132524419096525734 LOG Spawning Josh Racer 2.0
+132524419096525734 LOG Spawning Josh Racer 2.0
+132524419096565726 LOG Initialising NoxObject2D
+132524419096565726 LOG Initialising structure BoltonRacer
+132524419096575719 LOG Added AI controlled structure to game mode
+132524419096585724 LOG Controller attached to structure BoltonRacer
+132524419096625728 LOG Collision mesh built from 48 tris
+132524419096645716 LOG Installing ThermalControl_Corvette into structure BoltonRacer
+132524419096665725 LOG THERMALCONTROL:CORVETTE attached to structure BoltonRacer
+132524419096675720 LOG Installing PowerGrid5000 into structure BoltonRacer
+132524419096675720 LOG POWERGRID:5000 attached to structure BoltonRacer
+132524419096685716 LOG Installing PowerCore3000 into structure BoltonRacer
+132524419096695714 LOG POWERCORE:3000 attached to structure BoltonRacer
+132524419096705717 LOG Installing Scanner500 into structure BoltonRacer
+132524419096715714 LOG SCANNER:500 attached to structure BoltonRacer
+132524419096715714 LOG Installing LimitedAfterburner into structure BoltonRacer
+132524419096725713 LOG AFTERBURNER:LIMITED attached to structure BoltonRacer
+132524419096735712 LOG Installing socket LeftEngine on BoltonRacer at position: (190.0487000, 204.1883000, 0.0000000)
+132524419096745712 LOG Installing module RaceEngine40 onto structure BoltonRacer
+132524419096755712 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure BoltonRacer
+132524419096765712 LOG Installing socket RightEngine on BoltonRacer at position: (205.2487000, 204.1883000, 0.0000000)
+132524419096765712 LOG Installing module RaceEngine40 onto structure BoltonRacer
+132524419096785717 LOG ENGINE:RACE40 attached to socket Small Engine Bay on structure BoltonRacer
+132524419096795733 LOG Helm on Helm is ready
+132524419096805720 LOG Module: A renderer on module RaceEngine40 on structure BoltonRacer is null
+132524419096805720 LOG Module: A renderer on module RaceEngine40 on structure BoltonRacer is null
+132524419096815715 LOG Spawning BoltonRacer
+132524419096825711 LOG Spawning BoltonRacer
+132524419096865714 LOG Number of ships in system: 19
+132524419096865714 LOG Number of stations in system: 0
+132524419096875716 LOG Total number of structures in system: 19
+132524419096875716 LOG Initialising game mode: RaceMode
+132524419097115707 LOG No Structure Monitor set in GUI.
+132524419097395696 LOG Camera: Cannot find initial camera target: SlowRunner
+132524419185573554 LOG Match has started

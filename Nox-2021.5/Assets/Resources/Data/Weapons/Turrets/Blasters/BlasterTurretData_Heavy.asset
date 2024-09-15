@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 992fcda9aef5a394a8dfafc4c9d1e8c9, type: 3}
+  m_Name: BlasterTurretData_Heavy
+  m_EditorClassIdentifier: 
+  __debugKey: 0
+  __type: BLASTERTURRET
+  __subType: HEAVY
+  __techLevel: 3
+  __priority: 0
+  __cost: 225
+  __requiredPower: 325
+  __activeHeat: 30
+  __emField: 0
+  __activatingDelay: 12
+  __deactivatingDelay: 6
+  __activeOn: 1
+  __activeOnSpawn: 1
+  __aspectRadius: 2.5
+  __maxArmour: 500
+  __explosion: {fileID: 1000011437209572, guid: a7d1a66b45cd86c4f8d15db26667a279,
+    type: 3}
+  __damageOnDestroy: 0
+  __maxAmmo: -1
+  __effectPrefab: {fileID: 1000010663234608, guid: fc12b474c909ea446934f5f7d5890833,
+    type: 3}
+  __powerPerShot: 15
+  __heatPerShot: 3
+  __minRange: 40
+  __maxRange: 600
+  __baseDamage: 24
+  __fireRate: 0.3
+  __canReveal: 0
+  __slewSpeed: 4
+  __trackingAngle: 0.225
+  __transversalDamage: 0
+  __shieldDamageModifier: 0.5
+  __hullDamageModifier: 2

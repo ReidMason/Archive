@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1103fecdd3583648be609ea4b6fa94c, type: 3}
+  m_Name: AfterburnerData_Limited
+  m_EditorClassIdentifier: 
+  __debugKey: 97
+  __type: AFTERBURNER
+  __subType: LIMITED
+  __techLevel: 1
+  __priority: 0
+  __cost: 50
+  __requiredPower: 5
+  __activeHeat: 20
+  __emField: 0
+  __activatingDelay: 0
+  __deactivatingDelay: 0
+  __activeOn: 0
+  __activeOnSpawn: 0
+  __cooldownBuff: {fileID: 11400000, guid: 99179f31e76e2b147967035fe41c4dd4, type: 2}

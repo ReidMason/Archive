@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d52e7c724a89a546848665b4f5889f1, type: 3}
+  m_Name: Faction Details
+  m_EditorClassIdentifier: 
+  label: Example Faction
+  abbreviation: EXF
+  ID: 0
+  primaryColour: {r: 1, g: 0, b: 0, a: 1}
+  secondaryColour: {r: 0.09372544, g: 1, b: 0, a: 1}
+  largeInsignia: {fileID: 2800000, guid: 8c788cedcaa69c74f979f5120071fb9b, type: 3}
+  smallInsignia: {fileID: 2800000, guid: b09b790736363c04f8b70ffdba528098, type: 3}
+  _stations: []
+  _enemyStructures: []
+  _neutralStructures: []
+  _friendlyStructures: []

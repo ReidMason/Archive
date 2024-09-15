@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1d76195d83f5074a9cd28757a20f677, type: 3}
+  m_Name: SnowballThrowerData_Standard
+  m_EditorClassIdentifier: 
+  __debugKey: 0
+  __type: SNOWBALLTHROWER
+  __subType: STANDARD
+  __techLevel: 0
+  __priority: 0
+  __cost: 50
+  __requiredPower: 50
+  __activeHeat: 5
+  __emField: 0
+  __activatingDelay: 5
+  __deactivatingDelay: 2.5
+  __activeOn: 1
+  __activeOnSpawn: 1
+  __aspectRadius: 1
+  __maxArmour: 200
+  __explosion: {fileID: 1000011437209572, guid: a7d1a66b45cd86c4f8d15db26667a279,
+    type: 3}
+  __damageOnDestroy: 0
+  __maxAmmo: 10
+  __effectPrefab: {fileID: 1000010663234608, guid: 5350ccd0261f7804f845c1604759b9e8,
+    type: 3}
+  __powerPerShot: 2
+  __heatPerShot: 0.5
+  __minRange: 5
+  __maxRange: 300
+  __baseDamage: 0
+  __fireRate: 5
+  __canReveal: 1
+  __autoFire: 0
+  __slewSpeed: 4
+  __trackingAngle: 0.5
+  __transversalDamage: 0
+  __colour:
+    serializedVersion: 2
+    rgba: 4294967295
+  __minDropRadius: 6
+  __maxDropRadius: 12
+  __spread: 0

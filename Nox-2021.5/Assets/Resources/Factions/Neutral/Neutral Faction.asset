@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d52e7c724a89a546848665b4f5889f1, type: 3}
+  m_Name: Neutral Faction
+  m_EditorClassIdentifier: 
+  label: Neutral
+  abbreviation: NTL
+  ID: -1
+  primaryColour: {r: 0.29411766, g: 0.43921572, b: 0.69411767, a: 0}
+  secondaryColour: {r: 0, g: 0, b: 0, a: 0}
+  largeInsignia: {fileID: 2800000, guid: da1d18ae00fb2534aa176b3365a2e9bf, type: 3}
+  smallInsignia: {fileID: 2800000, guid: 698cd38825206724d84a2d042e1a1b94, type: 3}

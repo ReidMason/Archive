@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 869dfdb69bb5e5841b91678f4b0b2340, type: 3}
+  m_Name: TargetData_200
+  m_EditorClassIdentifier: 
+  label: TargetData_200
+  faction: {fileID: 0}
+  factionLabel: {fileID: 0}
+  nameLabel: {fileID: 0}
+  spawnHidden: 0
+  canBeDamaged: 1
+  canRespawn: 0
+  respawnsAtStartSpot: 0
+  despawnTime: 0
+  respawnTime: 0
+  hullCost: 0
+  mass: 200
+  aspectRadius: 5
+  maxFireGroups: -1
+  maxDevices: 0
+  maxModules: 0
+  numShieldSockets: 0
+  numMixedSockets: 0
+  maxWeapons: 0
+  numLaunchers: 0
+  numTurrets: 0
+  numEmitters: 0
+  numMixedLaunchersAndTurrets: 0
+  numMixedGenericWeapons: 0
+  maxDockingPorts: 0
+  maxHangars: 0

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d0b9db3027f6a642ad8857d04fdf9dc, type: 3}
+  m_Name: ColourSprayGunData_Red
+  m_EditorClassIdentifier: 
+  __debugKey: 0
+  __type: COLOURSPRAYGUN
+  __subType: RED
+  __techLevel: 0
+  __priority: 0
+  __cost: 50
+  __requiredPower: 50
+  __activeHeat: 5
+  __emField: 0
+  __activatingDelay: 5
+  __deactivatingDelay: 2.5
+  __activeOn: 1
+  __activeOnSpawn: 1
+  __aspectRadius: 1
+  __maxArmour: 200
+  __explosion: {fileID: 1000011437209572, guid: a7d1a66b45cd86c4f8d15db26667a279,
+    type: 3}
+  __damageOnDestroy: 0
+  __maxAmmo: 50
+  __effectPrefab: {fileID: 1000010663234608, guid: b6737f2b42e392a498f344faa2773762,
+    type: 3}
+  __powerPerShot: 2
+  __heatPerShot: 0.5
+  __minRange: 5
+  __maxRange: 350
+  __baseDamage: 0
+  __fireRate: 0.25
+  __canReveal: 1
+  __autoFire: 1
+  __slewSpeed: 4
+  __trackingAngle: 0.5
+  __transversalDamage: 0
+  __colour:
+    serializedVersion: 2
+    rgba: 4291954943
+  __minDropRadius: 8
+  __maxDropRadius: 12
+  __spread: 0
