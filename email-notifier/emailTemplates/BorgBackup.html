@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Borg backup</title>
+</head>
+<body>
+<h1 style="color: {{'#059669' if data['backup_successful'] else '#DC2626'}}">
+  {{data['backup_name']}} backup {{'successful' if data['backup_successful'] else 'failed'}}
+</h1>
+{% if data['backup_successful'] %}
+<table style="display: inline-block; font-size: large;">
+  <tr>
+    <td style="width: 145px;">
+      Duration:
+    </td>
+    <td>
+      {{data['backup_duration_formatted']}}
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Total size:
+    </td>
+    <td>
+      {{data['formatted_size']}}
+    </td>
+  </tr>
+</table>
+{% else %}
+
+<div>
+  <h2>Error message:</h2>
+  <p style="font-size: 18px;">{{data['message']}}</p>
+</div>
+
+<div>
+  <h2>Stderr:</h2>
+  <p style="font-size: 18px;">{{data['stderr']}}</p>
+</div>
+
+{% endif %}
+</body>
+</html>

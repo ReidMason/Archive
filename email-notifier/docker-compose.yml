@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+  email-notifier:
+    build: 
+        context: .
+
+    environment: 
+      - "SENDER_PASSWORD="
+      - "RECIPIENTS="
+      - "SENDER_ADDRESS="
+      - "MAIL_SERVER=smtp.gmail.com"
+      - "MAIL_PORT=587"
+      - "AUTH_TOKEN=k&kG&for7vRXTVL!Q7T2"
+
+    ports: 
+      - 5004:5004
