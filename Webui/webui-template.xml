@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+    <Date>2019-08-16</Date>
+    <Beta>False</Beta>
+    <Name>Webui</Name>
+    <Overview>
+        Test web ui.
+    </Overview>
+    <Description>
+        Test web ui.
+    </Description>
+    <GitHub>https://github.com/SkippyTheSnake/webui</GitHub>
+    <Repository>https://github.com/SkippyTheSnake/Webui</Repository>
+    <Support>https://github.com/SkippyTheSnake/webui</Support>
+    <BindTime>true</BindTime>
+    <Privileged>false</Privileged>
+    <Networking>
+        <Mode>host</Mode>
+        <Publish/>
+    </Networking>
+</Containers>
